@@ -1,4 +1,4 @@
-baseurl = "/rday"
+baseurl = "http://cursos.leg.ufpr.br/rday/"
 publishDir = "docs"
 title = "Rday"
 theme = "vec"

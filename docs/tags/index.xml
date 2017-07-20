@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rday</title>
-    <link>/rday/tags/</link>
+    <link>http://cursos.leg.ufpr.br/rday/tags/</link>
     <description>Recent content in Tags on Rday</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Sep 2015 13:47:08 +0200</lastBuildDate>
     
-	<atom:link href="/rday/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://cursos.leg.ufpr.br/rday/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Go</title>
-      <link>/rday/tags/go/</link>
+      <link>http://cursos.leg.ufpr.br/rday/tags/go/</link>
       <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
       
-      <guid>/rday/tags/go/</guid>
+      <guid>http://cursos.leg.ufpr.br/rday/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>/rday/tags/golang/</link>
+      <link>http://cursos.leg.ufpr.br/rday/tags/golang/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>/rday/tags/golang/</guid>
+      <guid>http://cursos.leg.ufpr.br/rday/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>/rday/tags/hugo/</link>
+      <link>http://cursos.leg.ufpr.br/rday/tags/hugo/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>/rday/tags/hugo/</guid>
+      <guid>http://cursos.leg.ufpr.br/rday/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>/rday/tags/programming/</link>
+      <link>http://cursos.leg.ufpr.br/rday/tags/programming/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>/rday/tags/programming/</guid>
+      <guid>http://cursos.leg.ufpr.br/rday/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theme</title>
-      <link>/rday/tags/theme/</link>
+      <link>http://cursos.leg.ufpr.br/rday/tags/theme/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>/rday/tags/theme/</guid>
+      <guid>http://cursos.leg.ufpr.br/rday/tags/theme/</guid>
       <description></description>
     </item>
     
