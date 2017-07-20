@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Rday</title>
-    <link>leg-ufpr.github.io/rday/categories/</link>
+    <link>rday/categories/</link>
     <description>Recent content in Categories on Rday</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="leg-ufpr.github.io/rday/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="rday/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Programming</title>
-      <link>leg-ufpr.github.io/rday/categories/programming/</link>
+      <link>rday/categories/programming/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>leg-ufpr.github.io/rday/categories/programming/</guid>
+      <guid>rday/categories/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Starting</title>
-      <link>leg-ufpr.github.io/rday/categories/starting/</link>
+      <link>rday/categories/starting/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>leg-ufpr.github.io/rday/categories/starting/</guid>
+      <guid>rday/categories/starting/</guid>
       <description></description>
     </item>
     
