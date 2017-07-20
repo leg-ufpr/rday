@@ -19,13 +19,14 @@ As propostas para apresentação oral devem conter as seguintes
 informações:
 
 - Nome do apresentador
+- Email
 - Universidade/Instituição/Empresa
 - Título
 - Resumo
 - Público-alvo (geral/específico)
 
 Estas informações devem ser preenchidas e encaminhadas através deste
-formulário. LINK.
+[formulário](https://goo.gl/forms/7jdfJZvPmdfg5psc2).
 
 ### Tutoriais
 
@@ -56,6 +57,7 @@ propostas para outros temas**.
 As propostas para tutoriais devem conter as seguintes informações:
 
 - Nome
+- Email
 - Universidade/Instituição/Empresa
 - Título
 - Destinado à: usuário/desenvolvedor/não se aplica
@@ -65,7 +67,7 @@ As propostas para tutoriais devem conter as seguintes informações:
 - Descrição
 
 Estas informações devem ser preenchidas e encaminhadas através deste
-formulário. LINK.
+[formulário](https://goo.gl/forms/H2KvxSvgNrsiFiZw1).
 
 ### Custeio
 
