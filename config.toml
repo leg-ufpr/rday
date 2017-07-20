@@ -23,19 +23,17 @@ googleAnalytics = ""
     weight = 2
     url = "/atividades"
   [[menu.main]]
-    name = "cronograma"
-    weight = 3
-    url = "/cronograma"
-  [[menu.main]]
     name = "propostas"
-    weight = 4
+    weight = 3
     url = "/propostas"
   [[menu.main]]
-    name = "prazos"
+    name = "inscricao"
+    weight = 4
+    url = "/inscricao"
+  [[menu.main]]
+    name = "comissao"
     weight = 5
-    url = "/prazos"
-
-
+    url = "/comissao"
 
 [params]
   Keywords = ""
