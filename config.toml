@@ -1,5 +1,6 @@
 baseurl = "http://cursos.leg.ufpr.br/rday/"
 publishDir = "docs"
+canonifyURLs = "true"
 title = "Rday"
 theme = "vec"
 languageCode = "en-us"
