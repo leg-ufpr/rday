@@ -1,0 +1,50 @@
+baseurl = "leg-ufpr.github.io/rday"
+publishDir = "docs"
+title = "Rday"
+theme = "vec"
+languageCode = "en-us"
+paginate = 10
+disqusShortname = ""
+googleAnalytics = ""
+
+[menu]
+  # Shown in the side menu.
+  # [[menu.main]]
+  #   name = "post"
+  #   weight = 0
+  #   url = "/post"
+  [[menu.main]]
+    name = "sobre"
+    weight = 1
+    url = "/sobre"
+  [[menu.main]]
+    name = "atividades"
+    weight = 2
+    url = "/atividades"
+  [[menu.main]]
+    name = "cronograma"
+    weight = 3
+    url = "/cronograma"
+  [[menu.main]]
+    name = "propostas"
+    weight = 4
+    url = "/propostas"
+  [[menu.main]]
+    name = "prazos"
+    weight = 5
+    url = "/prazos"
+
+
+
+[params]
+  Keywords = ""
+  Description = "R Day RBRAS 2017"
+  Avatar = "img/Rday-big-russo.svg"
+  SelfIntro = "Evento satélite pré 63ª RBRAS"
+  Email = ""
+
+  GithubID = "leg-ufpr"
+  TwitterID = "LEG_UFPR"
+  FacebookID = ""
+  LinkedInID = ""
+  GoogleplusID = "+LEGUFPR"
