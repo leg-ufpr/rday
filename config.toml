@@ -1,4 +1,4 @@
-baseurl = "rday/"
+baseurl = "/"
 publishDir = "docs"
 title = "Rday"
 theme = "vec"

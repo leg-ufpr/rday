@@ -3,119 +3,119 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>rday/post/migrate-from-jekyll/</loc>
+    <loc>/post/migrate-from-jekyll/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>rday/post/linked-post/</loc>
+    <loc>/post/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>rday/post/go-is-for-lovers/</loc>
+    <loc>/post/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>rday/post/hugo-is-for-lovers/</loc>
+    <loc>/post/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>rday/post/creating-a-new-theme/</loc>
+    <loc>/post/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>rday/atividades/</loc>
+    <loc>/atividades/</loc>
   </url>
   
   <url>
-    <loc>rday/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>rday/contact/</loc>
+    <loc>/contact/</loc>
   </url>
   
   <url>
-    <loc>rday/cronograma/</loc>
+    <loc>/cronograma/</loc>
   </url>
   
   <url>
-    <loc>rday/faq/</loc>
+    <loc>/faq/</loc>
   </url>
   
   <url>
-    <loc>rday/tags/go/</loc>
+    <loc>/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>rday/tags/golang/</loc>
+    <loc>/tags/golang/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>rday/tags/hugo/</loc>
+    <loc>/tags/hugo/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>rday/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>rday/prazos/</loc>
+    <loc>/prazos/</loc>
   </url>
   
   <url>
-    <loc>rday/tags/programming/</loc>
+    <loc>/tags/programming/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>rday/categories/programming/</loc>
+    <loc>/categories/programming/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>rday/propostas/</loc>
+    <loc>/propostas/</loc>
   </url>
   
   <url>
-    <loc>rday/</loc>
+    <loc>/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>rday/sobre/</loc>
+    <loc>/sobre/</loc>
   </url>
   
   <url>
-    <loc>rday/categories/starting/</loc>
+    <loc>/categories/starting/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>rday/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>rday/tags/theme/</loc>
+    <loc>/tags/theme/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
