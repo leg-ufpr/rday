@@ -38,17 +38,29 @@ Os temas inicialmente propostos são os seguintes:
 
 **Tutoriais para usuários:**
 
-- T1: Visualização de dados
-- T3: Manipulação de dados
-- T5: Editores para R
-- T7: Ferramentas para pesquisa reproduzível
+- **T1: Visualização de dados**
+  - Pacotes como `lattice`, `ggplot2`, técnicas de visualização, etc)
+- **T3: Manipulação de dados**
+  - Pacotes e técnicas para manipulação, formatação, "limpeza" de dados,
+  etc)
+- **T5: Editores para R**
+  - Uso do R em diferentes editores como RStudio, Emacs, Vim, etc)
+- **T7: Ferramentas para pesquisa reproduzível**
+  - Pacotes para pesquisa reproduzível, documentos dinâmicos, etc)
 
 **Tutoriais para desenvolvedores:**
 
-- T2: Paralelização de código
-- T4: Desenvolvimento de pacotes
-- T6: R com linguagens externas (C, C++, Fortran, etc)
-- T8: Desenvolvimento em Shiny
+- **T2: Paralelização de código**
+  - Pacotes e demais ferramentas para paralelização de códigos em R,
+  etc)
+- **T4: Desenvolvimento de pacotes**
+  - Formas de criação e manutenção de pacotes em R, `devtools`,
+  `roxygen2`, etc)
+- **T6: R com linguagens externas**
+  - Pacotes e formas de utilizar códigos de outras linguagens no R, como
+  C, C++, Fortran, etc)
+- **T8: Desenvolvimento em Shiny**
+  - Ferramentas e técnicas para desenvolvimento de aplicações em Shiny)
 
 **Importante:** Os temas para tutorias expostos aqui foram propostos
 inicialmente pela comissão organizadora, mas **também serão aceitas
