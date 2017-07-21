@@ -1,7 +1,7 @@
 baseurl = "http://rday.leg.ufpr.br/"
 publishDir = "docs"
 canonifyURLs = "true"
-title = "Rday"
+title = "R Day"
 theme = "vec"
 languageCode = "en-us"
 paginate = 10
