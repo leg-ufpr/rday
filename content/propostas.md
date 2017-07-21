@@ -26,7 +26,7 @@ informações:
 - Público-alvo (geral/específico)
 
 Estas informações devem ser preenchidas e encaminhadas através deste
-[formulário](https://goo.gl/forms/7jdfJZvPmdfg5psc2).
+[formulário](http://coletum.com/pt_BR/account/38/form/2461/answer/new).
 
 ### Tutoriais
 
@@ -39,28 +39,29 @@ Os temas inicialmente propostos são os seguintes:
 **Tutoriais para usuários:**
 
 - **T1: Visualização de dados**
-  - Pacotes como `lattice`, `ggplot2`, técnicas de visualização, etc)
+  - Ferramentas para visualização de dados, pacotes como `lattice`,
+    `ggplot2`, técnicas de visualização, etc
 - **T3: Manipulação de dados**
-  - Pacotes e técnicas para manipulação, formatação, "limpeza" de dados,
-  etc)
+  - Ferramentas para importação, organização, resumo, formatação e
+  exportação de dados, etc
 - **T5: Editores para R**
-  - Uso do R em diferentes editores como RStudio, Emacs, Vim, etc)
+  - Uso de editores como RStudio, Emacs, Tinn-R, Vim, para
+    desenvolvimento em R
 - **T7: Ferramentas para pesquisa reproduzível**
-  - Pacotes para pesquisa reproduzível, documentos dinâmicos, etc)
+  - Ferramentas para pesquisa reproduzível, documentos dinâmicos, etc
 
 **Tutoriais para desenvolvedores:**
 
 - **T2: Paralelização de código**
-  - Pacotes e demais ferramentas para paralelização de códigos em R,
-  etc)
+  - Ferramentas para paralelização de códigos em R, uso de clusters, etc
 - **T4: Desenvolvimento de pacotes**
-  - Formas de criação e manutenção de pacotes em R, `devtools`,
-  `roxygen2`, etc)
+  - Ferramentas para criação e manutenção de pacotes em R, `devtools`,
+  `roxygen2`, etc
 - **T6: R com linguagens externas**
-  - Pacotes e formas de utilizar códigos de outras linguagens no R, como
-  C, C++, Fortran, etc)
+  - Ferramentas para utilizar códigos de outras linguagens no R, como
+  C, C++, Fortran, etc
 - **T8: Desenvolvimento em Shiny**
-  - Ferramentas e técnicas para desenvolvimento de aplicações em Shiny)
+  - Ferramentas e técnicas para desenvolvimento de aplicações em Shiny
 
 **Importante:** Os temas para tutorias expostos aqui foram propostos
 inicialmente pela comissão organizadora, mas **também serão aceitas
@@ -79,7 +80,7 @@ As propostas para tutoriais devem conter as seguintes informações:
 - Descrição
 
 Estas informações devem ser preenchidas e encaminhadas através deste
-[formulário](https://goo.gl/forms/H2KvxSvgNrsiFiZw1).
+[formulário](http://coletum.com/pt_BR/account/38/form/2464/answer/new).
 
 ### Custeio
 

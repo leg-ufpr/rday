@@ -11,3 +11,7 @@ formspree = true
 - Paulo J. Ribeiro Jr. (LEG/UFPR)
 - Wagner H. Bonat (LEG/UFPR)
 - Walmes M. Zeviani (LEG/UFPR)
+
+### Contato
+
+Entre em contato através deste [email](mailto:leg@ufpr.br).

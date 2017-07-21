@@ -7,6 +7,7 @@ languageCode = "en-us"
 paginate = 10
 disqusShortname = ""
 googleAnalytics = ""
+ignoreFiles = ["\\.R$", "\\.Rmd$", "\\.sh", "_files$", "_cache$"]
 
 [menu]
   # Shown in the side menu.

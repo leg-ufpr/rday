@@ -4,6 +4,11 @@ id = "sobre"
 formspree = true
 +++
 
+O R Day será realizado no dia 22 de maio de 2018, no Campus III - Centro
+Politécnico da Universidade Federal do Paraná (UFPR), como um evento
+satélite da 63ª RBRAS (Reunião anual da Região Brasileira da Sociedade
+Internacional de Biometria).
+
 O objetivo do evento é congregar usuários e desenvolvedores R para um
 dia de atividades formativas e informativas sobre o ambiente R.
 
