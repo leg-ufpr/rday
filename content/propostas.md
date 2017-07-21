@@ -26,7 +26,7 @@ informações:
 - Público-alvo (geral/específico)
 
 Estas informações devem ser preenchidas e encaminhadas através deste
-[formulário](http://coletum.com/pt_BR/account/38/form/2461/answer/new).
+[formulário](http://coletum.com/pt_BR/account/2742/form/2466/answer/new).
 
 ### Tutoriais
 
@@ -80,7 +80,7 @@ As propostas para tutoriais devem conter as seguintes informações:
 - Descrição
 
 Estas informações devem ser preenchidas e encaminhadas através deste
-[formulário](http://coletum.com/pt_BR/account/38/form/2464/answer/new).
+[formulário](http://coletum.com/pt_BR/account/2742/form/2467/answer/new).
 
 ### Custeio
 
