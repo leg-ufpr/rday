@@ -6,7 +6,7 @@ theme = "vec"
 languageCode = "en-us"
 paginate = 10
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "UA-66454501-3"
 ignoreFiles = ["\\.R$", "\\.Rmd$", "\\.sh", "_files$", "_cache$"]
 
 [menu]
