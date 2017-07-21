@@ -1,4 +1,4 @@
-baseurl = "http://cursos.leg.ufpr.br/rday/"
+baseurl = "http://rday.leg.ufpr.br/"
 publishDir = "docs"
 canonifyURLs = "true"
 title = "Rday"

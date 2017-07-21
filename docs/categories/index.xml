@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Rday</title>
-    <link>http://cursos.leg.ufpr.br/rday/categories/</link>
+    <link>http://rday.leg.ufpr.br/categories/</link>
     <description>Recent content in Categories on Rday</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://cursos.leg.ufpr.br/rday/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://rday.leg.ufpr.br/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Programming</title>
-      <link>http://cursos.leg.ufpr.br/rday/categories/programming/</link>
+      <link>http://rday.leg.ufpr.br/categories/programming/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>http://cursos.leg.ufpr.br/rday/categories/programming/</guid>
+      <guid>http://rday.leg.ufpr.br/categories/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Starting</title>
-      <link>http://cursos.leg.ufpr.br/rday/categories/starting/</link>
+      <link>http://rday.leg.ufpr.br/categories/starting/</link>
       <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
-      <guid>http://cursos.leg.ufpr.br/rday/categories/starting/</guid>
+      <guid>http://rday.leg.ufpr.br/categories/starting/</guid>
       <description></description>
     </item>
     
