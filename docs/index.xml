@@ -72,7 +72,18 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://cursos.leg.ufpr.br/rday/atividades/</guid>
-      <description></description>
+      <description>As atividades serão divididas em 3 conferências, 3 sessões de apresentações orais e dois segmentos simultâneos de 4 tutoriais em cada.
+Uma tentativa de planejamento para o dia é a seguinte:
+.tg {border-collapse:collapse;border-spacing:0;} .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;} .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;} .tg .tg-baqh{text-align:center;vertical-align:top} .tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}   Horário Atividade Distribuição   08h00 - 09h00 C1 - Conferência 1 45min + 15min   09h00 - 10h00 A1 - Apres.</description>
+    </item>
+    
+    <item>
+      <title>Comissão</title>
+      <link>http://cursos.leg.ufpr.br/rday/comissao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://cursos.leg.ufpr.br/rday/comissao/</guid>
+      <description> Comissão organizadora  Elias T. Krainski (LEG/UFPR) Fernando P. Mayer (LEG/UFPR) Paulo J. Ribeiro Jr. (LEG/UFPR) Wagner H. Bonat (LEG/UFPR) Walmes M. Zeviani (LEG/UFPR)  </description>
     </item>
     
     <item>
@@ -105,6 +116,15 @@ Please feel free to contact us, our customer service center is working for you 2
     </item>
     
     <item>
+      <title>Inscrição</title>
+      <link>http://cursos.leg.ufpr.br/rday/inscricao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://cursos.leg.ufpr.br/rday/inscricao/</guid>
+      <description>Em breve informações sobre inscrição.</description>
+    </item>
+    
+    <item>
       <title>Prazos</title>
       <link>http://cursos.leg.ufpr.br/rday/prazos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -119,7 +139,9 @@ Please feel free to contact us, our customer service center is working for you 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://cursos.leg.ufpr.br/rday/propostas/</guid>
-      <description></description>
+      <description>Todos os interessados são convidados a enviar propostas para apresentações orais (projetos e pacotes em R) e tutorias (diversas ferramentas).
+Apresentações orais As apresentações orais terão duração total de 20 minutos (15 minutos de exposição e 5 minutos para discussão). Serão consideradas propostas para apresentação de pacotes desenvolvidos em R ou projetos que usam o R como principal ferramenta. Ao total serão 9 apresentações.
+As propostas para apresentação oral devem conter as seguintes informações:</description>
     </item>
     
     <item>
@@ -128,7 +150,8 @@ Please feel free to contact us, our customer service center is working for you 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://cursos.leg.ufpr.br/rday/sobre/</guid>
-      <description>A comunidade de usuários e desenvolvedores de pacotes R tem crescido em quantidade de usuários e desenvolvedores e têm melhorado em qualidade e contribuições no Brasil e no mundo. A lista brasileira oficial de usuários de R, a R-br, fundada em Março de 2011, possui 1042 membros e um fluxo de 250 mensagens mensais (~12 mensagens ao dia). Além da lista, existe a comunidade de usuários no stackoverflow em português, grupos de usuários no telegram, blogs nacionais de conteúdo sobre R, páginas de comunidades no Facebook além de vários repositórios mantidos no GitHub e em outros serviços de hospedagem de código fonte com pacotes oficiais, não oficiais e tutoriais.</description>
+      <description>O objetivo do evento é congregar usuários e desenvolvedores R para um dia de atividades formativas e informativas sobre o ambiente R.
+A comunidade de usuários e desenvolvedores de pacotes R tem crescido em quantidade de usuários e desenvolvedores e têm melhorado em qualidade e contribuições no Brasil e no mundo. A lista brasileira oficial de usuários de R, a R-br, fundada em Março de 2011, possui 1042 membros e um fluxo de 250 mensagens mensais.</description>
     </item>
     
   </channel>
