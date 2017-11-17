@@ -42,6 +42,8 @@ ignoreFiles = ["\\.R$", "\\.Rmd$", "\\.sh", "_files$", "_cache$"]
   Avatar = "img/Rday-big-russo.svg"
   SelfIntro = "Evento satélite pré 63ª RBRAS 22/05/2018"
   Email = ""
+  ApoioTitle = "Apoio:"
+  ApoioTexto = "The R Foundation"
 
   GithubID = "leg-ufpr"
   TwitterID = "LEG_UFPR"

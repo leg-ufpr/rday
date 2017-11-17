@@ -13,9 +13,10 @@
 <body>
   {{ partial "header.html" . }}
 
-  <section class="user-profile">
-    <figure class="user-avatar">
+    <section class="user-profile">
+      <figure class="user-avatar">
       <img alt="avatar" src="{{ .Site.Params.Avatar }}">
+        <p class="user-motivation">{{ .Site.Params.SelfIntro }}</p>
       <figcaption class="user-socials">
         {{ with .Site.Params.TwitterID }}
         <a href="https://twitter.com/{{.}}" title="Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
@@ -35,7 +36,11 @@
 
       </figcaption>
     </figure>
-    <p class="user-motivation">{{ .Site.Params.SelfIntro }}</p>
+  </section>
+
+  <section class="apoio">
+      <p class="apoio-title">{{ .Site.Params.ApoioTitle }}</p>
+      <p class="apoio-text">{{ .Site.Params.ApoioTexto }}</p>
   </section>
 
   {{ partial "footer.html" . }}
