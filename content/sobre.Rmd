@@ -9,6 +9,9 @@ Politécnico da Universidade Federal do Paraná (UFPR), como um evento
 satélite da 63ª RBRAS (Reunião anual da Região Brasileira da Sociedade
 Internacional de Biometria).
 
+**O R Day é o primeiro evento no Brasil apoiado oficialmente pela [The R
+Foundation](https://www.r-project.org/foundation).**
+
 O objetivo do evento é congregar usuários e desenvolvedores R para um
 dia de atividades formativas e informativas sobre o ambiente R.
 
@@ -36,7 +39,9 @@ Durante a [54ª RBRAS][], que ocorreu em São Carlos em 2009, houve um
 pequeno encontro organizado informalmente, onde já se discutia a
 possibilidade da criação de encontros regulares.
 
-![useRs](/img/RBRAS_2009_useRs.jpg)
+```{r, echo=FALSE, fig.align='center'}
+knitr::include_graphics("/img/RBRAS_2009_useRs.jpg")
+```
 
 O [Departamento de Estatística][] da Universidade Federal do Paraná foi
 um dos pioneiros no uso do R em instituições de ensino superior, sendo,
