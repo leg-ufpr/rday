@@ -129,7 +129,7 @@ ministrantes dos tutoriais serão selecionados mediante inscrição de
 [propostas](propostas.html)**.
 
 <div class="panel panel-warning">
-  <div class="panel-heading">Observação</div>
+  <div class="panel-heading">**Observação**</div>
   <div class="panel-body">Os temas e a quantidade de tutorias poderão
   sofrer alterações conforme as propostas submetidas.</div>
 </div>
