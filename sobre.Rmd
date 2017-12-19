@@ -14,7 +14,7 @@ Politécnico da Universidade Federal do Paraná (UFPR), como um evento
 satélite da 63ª RBRAS (Reunião anual da Região Brasileira da Sociedade
 Internacional de Biometria).
 
-**O R Day é o primeiro evento no Brasil apoiado oficialmente pela [The R
+**O R Day é o primeiro evento no Brasil endossado oficialmente pela [The R
 Foundation](https://www.r-project.org/foundation).**
 
 O objetivo do evento é congregar usuários e desenvolvedores R para um
@@ -41,8 +41,10 @@ Aplicações de R em Administração - [CARA][], que aconteceu eu 2016, mas
 com um público mais específico.
 
 Durante a [54ª RBRAS][], que ocorreu em São Carlos em 2009, houve um
-pequeno encontro organizado informalmente, onde já se discutia a
-possibilidade da criação de encontros regulares.
+pequeno encontro organizado informalmente, através da antiga lista de
+emails R_STAT, onde já se discutia a possibilidade da criação de
+encontros regulares. Todos os participantes desse encontro estão na foto
+abaixo.
 
 ```{r, echo=FALSE, out.width='75%'}
 knitr::include_graphics("img/RBRAS_2009_useRs.jpg")
@@ -61,10 +63,10 @@ intenção de promover um encontro entre usuários do R das mais diversas
 áreas.
 
 Um grande número de participantes da RBRAS contribui para a adoção e
-divulgação do R em pesquisas científicas, principalmente. O público
-participante é composto geralmente por alunos de graduação,
-pós-graduação e pesquisadores que atuam em diversas áreas como
-Agronomia, Biologia, Ecologia, Medicina e Economia.
+divulgação do R em pesquisas científicas. O público participante é
+composto geralmente por alunos de graduação, pós-graduação e
+pesquisadores que atuam em diversas áreas como Agronomia, Biologia,
+Ecologia, Medicina e Economia.
 
 Dessa forma, o público-alvo do evento são os alunos de graduação,
 pós-graduação, profissionais, usuários de R em geral, de nível básico ou
