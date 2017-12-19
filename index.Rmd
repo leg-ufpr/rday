@@ -8,21 +8,24 @@ output:
 source("setup_knitr.R")
 ```
 
-<br><br>
+<br>
 
 ```{r, echo=FALSE}
 knitr::include_graphics("img/Rday-big-russo.svg")
 ```
 
-<br><br>
+<br>
 
 <p style="font-size:325%; text-align:center; font-family:'Russo One'">
 Encontro nacional de usuários do R </p>
 
 <p style="font-size:300%; text-align:center; font-family:'Russo One'">
+UFPR - Curitiba, PR </p>
+
+<p style="font-size:300%; text-align:center; font-family:'Russo One'">
 22/05/2018 </p>
 
-<br><br>
+<br>
 
 <div style="width:100%;"> <!-- Main Div -->
 <div style="float:left; width:49%;">
