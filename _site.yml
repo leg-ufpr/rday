@@ -1,6 +1,6 @@
 name: "R Day"
 output_dir: "docs"
-exclude: ["README.md", "\\.sh", "cache"]
+exclude: ["README.md", "deploy.sh", "cache", ".travis.yml"]
 output:
   html_document:
     theme: cosmo
