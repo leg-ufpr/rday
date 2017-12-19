@@ -26,6 +26,8 @@ navbar:
       href: propostas.html
     - text: "Datas"
       href: datas.html
+    - text: "Local"
+      href: local.html
     - text: "Inscrição"
       href: inscricao.html
     - text: "Comissão"
