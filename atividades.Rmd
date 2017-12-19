@@ -1,0 +1,130 @@
+---
+title: "Atividades"
+output:
+  html_document:
+    toc: false
+---
+
+```{r, include=FALSE}
+source("setup_knitr.R")
+```
+
+As atividades serão divididas em 3 conferências, 3 sessões de
+apresentações orais e dois segmentos simultâneos de 4 tutoriais em cada.
+
+Uma tentativa de planejamento para o dia é a seguinte:
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-amwm">Horário</th>
+    <th class="tg-amwm" colspan="2">Atividade</th>
+    <th class="tg-amwm">Distribuição</th>
+  </tr>
+  <tr>
+    <td class="tg-baqh">08h00 - 09h00</td>
+    <td class="tg-baqh" colspan="2">C1 - Conferência 1</td>
+    <td class="tg-baqh">45min + 15min</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">09h00 - 10h00</td>
+    <td class="tg-baqh" colspan="2">A1 - Apres. Oral 1</td>
+    <td class="tg-baqh">3 x (15min + 5min)</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">10h00 - 10h30</td>
+    <td class="tg-baqh" colspan="2">Intervalo</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">10h30 - 11h30</td>
+    <td class="tg-baqh" colspan="2">A2 - Apres. Oral 2</td>
+    <td class="tg-baqh">3 x (15min + 5min)</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">11h30 - 12h30</td>
+    <td class="tg-baqh" colspan="2">A3 - Apres. Oral 3</td>
+    <td class="tg-baqh">3 x (15min + 5min)</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">12h30 - 14h00</td>
+    <td class="tg-baqh" colspan="2">Almoço</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">14h00 - 15h00</td>
+    <td class="tg-baqh" colspan="2">C2 - Conferência 2</td>
+    <td class="tg-baqh">45min + 15min</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">15h00 - 16h00</td>
+    <td class="tg-baqh">T1 - Visualização</td>
+    <td class="tg-baqh">T2 - Paralelização</td>
+    <td class="tg-baqh">50min + 10min</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">16h00 - 17h00</td>
+    <td class="tg-baqh">T3 - Manipulação</td>
+    <td class="tg-baqh">T4 - Desenv. pacotes</td>
+    <td class="tg-baqh">50min + 10min</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">17h00 - 17h30</td>
+    <td class="tg-baqh" colspan="2">Intervalo</td>
+    <td class="tg-baqh"></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">17h30 - 18h30</td>
+    <td class="tg-baqh">T5 - Editores R</td>
+    <td class="tg-baqh">T6 - C, C++, Fortran</td>
+    <td class="tg-baqh">50min + 10min</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">18h30 - 19h30</td>
+    <td class="tg-baqh">T7 - Ferr. pesq. reproduzível</td>
+    <td class="tg-baqh">T8 - Shiny</td>
+    <td class="tg-baqh">50min + 10min</td>
+  </tr>
+  <tr>
+    <td class="tg-baqh">19h30 - 20h30</td>
+    <td class="tg-baqh" colspan="2">C3 - Conferência 3</td>
+    <td class="tg-baqh">45min + 15min</td>
+  </tr>
+</table>
+
+## Conferências
+
+As 3 conferências serão feitas por convidados indicados pela comissão
+organizadora.
+
+## Apresentações orais
+
+As apresentações orais serão espaços para desenvolvedores de pacotes
+apresentarem seus pacotes, criando espaço para o recebimento de
+contribuições, geração de parcerias e compromissos futuros, como o
+desenvolvimento coletivo de projetos sobre R. Cada sessão terá duração
+de 1 hora com 3 apresentações de 20 minutos cada, sendo os 5 minutos
+finais de cada uma dedicados à participação da audiência. Os
+conferencistas das apresentações orais serão selecionados mediante
+inscrição de [propostas](/propostas).
+
+## Tutoriais
+
+Os tutoriais terão duração de 1 hora cada e serão realizados em dois
+segmentos simultâneos. Os tutoriais ímpares são voltados para os
+usuários buscando conhecimento em visualização e manipulação de dados,
+bem como ferramentas para editoração de código e pesquisa reproduzível.
+Já os tutoriais pares são voltados para os inclinados a desenvolver
+pacotes, e irá incluir ferramentas para o desenvolvimento de pacotes,
+recursos para paralelização de processamento e aplicações em Shiny. Os
+ministrantes dos tutoriais serão selecionados mediante inscrição de
+[propostas](/propostas).
+
+**Observação:** Os temas e a quantidade de tutorias poderão sofrer
+alterações conforme as propostas que forem submetidas.

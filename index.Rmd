@@ -1,0 +1,44 @@
+---
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE}
+source("setup_knitr.R")
+```
+
+<br><br>
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/Rday-big-russo.svg")
+```
+
+<br><br>
+
+<p style="font-size:325%; text-align:center; font-family:'Russo One'">
+Encontro nacional de usuários do R </p>
+
+<p style="font-size:300%; text-align:center; font-family:'Russo One'">
+22/05/2018 </p>
+
+<br><br>
+
+<div style="width:100%;"> <!-- Main Div -->
+<div style="float:left; width:49%;">
+<p style="font-size:200%; text-align:center; font-family:'Russo One'">
+Endossado por:
+</p>
+<p style="font-size:250%; text-align:center; font-family:'Russo One'; color:black;">
+The R Foundation
+</p>
+</div>
+<div style="float:right; width:49%;">
+<p style="font-size:200%; text-align:center; font-family:'Russo One'">
+Apoio:
+</p>
+```{r, echo=FALSE, out.width='60%'}
+knitr::include_graphics("img/coletum-horizontal.svg")
+```
+</div>
+</div>

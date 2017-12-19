@@ -1,0 +1,12 @@
+---
+title: "Datas importantes"
+output:
+  html_document:
+    toc: false
+---
+
+```{r, include=FALSE}
+source("setup_knitr.R")
+```
+
+Em breve.

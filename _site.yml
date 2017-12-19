@@ -1,0 +1,36 @@
+name: "R Day"
+output_dir: "docs"
+exclude: ["README.md", "\\.sh", "cache"]
+output:
+  html_document:
+    theme: cosmo
+    highlight: default
+    number_sections: false
+    toc: true
+    toc_depth: 4
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+    includes:
+      in_header: analytics.html
+navbar:
+  title: "R Day"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Sobre"
+      href: sobre.html
+    - text: "Atividades"
+      href: atividades.html
+    - text: "Propostas"
+      href: propostas.html
+    - text: "Datas"
+      href: datas.html
+    - text: "Inscrição"
+      href: inscricao.html
+    - text: "Comissão"
+      href: comissao.html
+  right:
+    - text:
+      icon: fa-twitter fa-lg
+      href: https://twitter.com/LEG_UFPR
