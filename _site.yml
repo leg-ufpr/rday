@@ -36,3 +36,6 @@ navbar:
     - text:
       icon: fa-twitter fa-lg
       href: https://twitter.com/LEG_UFPR
+    - text:
+      icon: fa-github fa-lg
+      href: https://github.com/leg-ufpr/rday
