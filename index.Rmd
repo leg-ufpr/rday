@@ -9,15 +9,14 @@ output:
 source("setup_knitr.R")
 ```
 
-<!-- <br> -->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 ```{r, echo=FALSE, out.width='100%'}
-knitr::include_graphics("img/r-day.png")
+knitr::include_graphics("img/r-day.svg")
 ```
 
-<!-- <br> -->
-
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<p style="font-size:325%; text-align:center; font-family:'Lato', sans-serif">
+R Day </p>
 
 <p style="font-size:325%; text-align:center; font-family:'Lato', sans-serif">
 Encontro nacional de usuários do R </p>
