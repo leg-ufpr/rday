@@ -15,7 +15,7 @@ source("setup_knitr.R")
 
 <center>
 <a href="https://coletum.com/pt_BR">
-<img align="center" src="img/coletum-horizontal.svg" width="60%" alt="Coletum">
+<img src="img/coletum-horizontal.svg" width="60%" alt="Coletum">
 </a>
 </center>
 
