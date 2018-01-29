@@ -36,6 +36,12 @@ navbar:
       href: comissao.html
   right:
     - text:
+      icon: fa-facebook fa-lg
+      href: https://www.facebook.com/leg.ufpr/
+    - text:
+      icon: fa-instagram fa-lg
+      href: https://www.instagram.com/leg.ufpr/
+    - text:
       icon: fa-twitter fa-lg
       href: https://twitter.com/LEG_UFPR
     - text:
