@@ -34,16 +34,19 @@ UFPR - Curitiba, PR </p>
 <p style="font-size:200%; text-align:center; font-family:'Lato', sans-serif">
 Endossado por:
 </p>
+<a href="https://www.r-project.org/foundation/">
 <p style="font-size:250%; text-align:center; font-family:'Lato', sans-serif; color:black;">
 The R Foundation
 </p>
+</a>
 </div>
 <div style="float:right; width:49%;">
 <p style="font-size:200%; text-align:center; font-family:'Lato', sans-serif">
 Apoio:
-</p>
-```{r, echo=FALSE, out.width='60%'}
-knitr::include_graphics("img/coletum-horizontal.svg")
-```
+<center>
+<a href="https://coletum.com/pt_BR">
+<img src="img/coletum-horizontal.svg" width="60%" alt="Coletum">
+</a>
+</center>
 </div>
 </div>
