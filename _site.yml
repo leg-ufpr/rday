@@ -30,6 +30,8 @@ navbar:
       href: local.html
     - text: "Inscrição"
       href: inscricao.html
+    - text: "Apoio"
+      href: apoio.html
     - text: "Comissão"
       href: comissao.html
   right:
