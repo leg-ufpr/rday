@@ -1,0 +1,22 @@
+---
+title: "Apoio"
+output:
+  html_document:
+    toc: false
+---
+
+```{r, include=FALSE}
+source("setup_knitr.R")
+```
+
+## Apoiadores do R Day
+
+<br>
+
+```{r, echo=FALSE, out.width='60%'}
+knitr::include_graphics("img/coletum-horizontal.svg")
+```
+
+<p style="font-size:250%; text-align:center; font-family:'Lato', sans-serif, font-weight:bold; color:black">
+[Coletum](https://coletum.com/pt_BR): qualquer dado, qualquer lugar
+ </p>
