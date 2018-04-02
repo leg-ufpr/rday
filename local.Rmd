@@ -10,8 +10,10 @@ source("setup_knitr.R")
 ```
 
 - Universidade Federal do Paraná (UFPR)
-- Campus III, Centro Politécnico
+- Campus Jardim Botânico - Setor de Ciências da Saúde
+- Auditórios:
+  - Gralha Azul
+  - Maurício Bissoli
 - Curitiba, PR
-- Em breve divulgação de salas
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.6316648511242!2d-49.23445612823834!3d-25.450575083217373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaeb8ddf88f7e5588!2sRua+Evaristo+F.+F.+da+Costa%2C+380+-+Centro+Polit%C3%A9cnico!5e0!3m2!1spt-BR!2sbr!4v1513646972244" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1801.404028146767!2d-49.24157639285917!3d-25.444679918655332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce5015a3cba6b%3A0xc67731032a4260f3!2sUFPR+-+Campus+III!5e0!3m2!1spt-BR!2sbr!4v1522706811259" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
