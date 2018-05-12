@@ -14,4 +14,4 @@ source("setup_knitr.R")
 | Início das inscrições                                              | 20/12/2017 |
 | Início da submissão de propostas (apresentações orais e tutoriais) | 20/12/2017 |
 | Fim da submissão de propostas (apresentações orais e tutoriais)    | 08/04/2018 |
-| Fim das inscrições                                                 | 22/04/2018 |
+| Fim das inscrições                                                 | ~~22/04/2018~~ 13/05/2018 |

@@ -14,7 +14,7 @@ source("setup_knitr.R")
   <div class="panel-body">
   - As inscrições são **gratuitas**, portanto solicitamos que se inscrevam
     somente aqueles que **realmente** participarão do evento.
-  - O prazo máximo para inscrição é **22/04/2018**.
+  - O prazo máximo para inscrição é ~~22/04/2018~~ **13/05/2018**.
   - Para se inscrever e participar do R Day, é necessário **ler e
   concordar** com os termos do **código de conduta** abaixo.
   </div>
