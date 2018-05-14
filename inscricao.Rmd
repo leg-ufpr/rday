@@ -85,7 +85,8 @@ evento (incluindo todas as atividades e *coffee break*).
 <div class="panel panel-primary">
   <div class="panel-heading">**Formulário de inscrição**</div>
   <div class="panel-body">
-  A inscrição no R Day deve ser feita através deste
-  [formulário](https://coletum.com/pt_BR/account/2742/form/4045/answer/new).
+  ~~A inscrição no R Day deve ser feita através deste formulário.~~
+
+Inscrições encerradas!
   </div>
 </div>
