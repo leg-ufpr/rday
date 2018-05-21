@@ -11,6 +11,7 @@ source("setup_knitr.R")
 
 - Universidade Federal do Paraná (UFPR)
 - Campus Jardim Botânico - Setor de Ciências da Saúde
+- Endereço para GPS: Av. Prefeito Lothário Meissner, 632
 - Auditórios:
   - Gralha Azul
   - Maurício Bissoli
