@@ -22,6 +22,8 @@ navbar:
       href: sobre.html
     - text: "Atividades"
       href: atividades.html
+    - text: "Materiais"
+      href: materiais.html
     - text: "Propostas"
       href: propostas.html
     - text: "Datas"
