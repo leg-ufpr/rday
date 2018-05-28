@@ -12,7 +12,8 @@ source("setup_knitr.R")
 ## Conferências
 
 - **C1: "R"eflexões: um pouco de história e experiências com o R** - *Paulo
-Justiniano Ribeiro Jr*. (LEG/DEST/UFPR)
+Justiniano Ribeiro Jr*. (LEG/DEST/UFPR).
+[Vídeo](https://youtu.be/fnGvDEkjZy0).
 - **C2: Paradigmas de visualização out-of-box e certificação em R** - *Rondon
 de Andrade Porto* (CNJ)
 - **C3: R-Ladies comunidade, missão e visão** - *Gabriela de Queiroz*
@@ -24,7 +25,8 @@ de Andrade Porto* (CNJ)
 - **Análise de Dados Musicais no R** - *BD Wundervald*
 - **Utilizando o R em desenvolvimento e produção** - *D Ikenaga*
 - **R Aplicado à Medicina de Precisão** - *B Carvalho*
-- **Modelos de regressão multivariado em R: O pacote mcglm** - *WH Bonat*
+- **Modelos de regressão multivariado em R: O pacote mcglm** - *WH
+  Bonat*. [Slides](materiais/WH_Bonat.pdf).
 - **labestData: biblioteca de dados para aprendizado de estatística** - *WM
 Zeviani*
 - **RColetum: uma API para consumo direto de dados do Coletum** - *M Magnani
