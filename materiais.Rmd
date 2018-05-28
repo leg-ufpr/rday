@@ -1,0 +1,59 @@
+---
+title: "Materiais"
+output:
+  html_document:
+    toc: false
+---
+
+```{r, include=FALSE}
+source("setup_knitr.R")
+```
+
+## Conferências
+
+- **C1: "R"eflexões: um pouco de história e experiências com o R** - *Paulo
+Justiniano Ribeiro Jr*. (LEG/DEST/UFPR)
+- **C2: Paradigmas de visualização out-of-box e certificação em R** - *Rondon
+de Andrade Porto* (CNJ)
+- **C3: R-Ladies comunidade, missão e visão** - *Gabriela de Queiroz*
+(R-Ladies e IBM)
+
+## Apresentações orais
+
+- **keras: deep learning com R** - *D Falbel*
+- **Análise de Dados Musicais no R** - *BD Wundervald*
+- **Utilizando o R em desenvolvimento e produção** - *D Ikenaga*
+- **R Aplicado à Medicina de Precisão** - *B Carvalho*
+- **Modelos de regressão multivariado em R: O pacote mcglm** - *WH Bonat*
+- **labestData: biblioteca de dados para aprendizado de estatística** - *WM
+Zeviani*
+- **RColetum: uma API para consumo direto de dados do Coletum** - *M Magnani
+& R Sant'Ana*
+- **Implementação de Dashboards em Shiny em O Boticário** - *J Farinela & L
+Marchioro*
+- **Justiça em Números em R Markdown** - *ITSV Stemler*
+- **Estruturação de dados de normas infralegais do Diário Oficial da União
+com R** - *TS Barcellos*
+- **Visualização de mapas Interativos** - *GS Klostermann*
+- **Introdução ao R-INLA** - *ET Krainski*
+- **Machine Learning Services: Detecção de anomalias onde um desvio pode
+custar milhões** - *BDB Loureiro*
+- **ExpDes e ExpDes.pt: pacotes R para análise de experimentos** - *EB
+Ferreira & DA Nogueira*
+- **Revisitando o Grafico Biplot proposto por Gabriel (1971)** - *LRM Pinto*
+- **Decryptr: Uma API Extensível para Quebrar Captchas** - *C Lente*
+- **Voronoys: Um aplicativo shiny para decifrar as eleições no Brasil** -
+*DRM Azevedo*
+
+## Tutoriais
+
+- **Introdução a visualização de dados no R com ggplot2** - *TS Barcellos*
+- **Introdução ao Machine Learning Services - utilizando o R** - *BDB
+  Loureiro*
+- **Introdução ao Shiny** - *WN de Amorim*
+- **Mineração de Dados aplicada à economia utilizando R** - *CS David*
+- **Criando websites com blogdown** - *EE Ribeiro Junior*
+- **Análise de Big Data utilizando o pacote sparklyr** - *SVM de Macêdo*
+- **Gerando relatórios preformatados com Shiny, Bookdown e Glue** - *J de
+Jesus Filho*
+- **ddR: Estruturas de Dados Distribuídas em R** - *C Lente*
