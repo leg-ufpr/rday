@@ -24,7 +24,7 @@ de Andrade Porto* (CNJ)
 
 - **keras: deep learning com R** - *D Falbel*
 - **Análise de Dados Musicais no R** - *BD Wundervald*
-- **Utilizando o R em desenvolvimento e produção** - *D Ikenaga*
+- **Utilizando o R em desenvolvimento e produção** - *D Ikenaga* [Slides](materiais/ikenaga/presentation.html)
 - **R Aplicado à Medicina de Precisão** - *B Carvalho*
 - **Modelos de regressão multivariado em R: O pacote mcglm** - *WH
   Bonat*. [Slides](materiais/WH_Bonat.pdf).
