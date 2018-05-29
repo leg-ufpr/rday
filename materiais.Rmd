@@ -13,7 +13,8 @@ source("setup_knitr.R")
 
 - **C1: "R"eflexões: um pouco de história e experiências com o R** - *Paulo
 Justiniano Ribeiro Jr*. (LEG/DEST/UFPR).
-[Vídeo](https://youtu.be/fnGvDEkjZy0).
+[Vídeo](https://youtu.be/fnGvDEkjZy0) e
+[slides](http://www.leg.ufpr.br/~paulojus/RDay2018).
 - **C2: Paradigmas de visualização out-of-box e certificação em R** - *Rondon
 de Andrade Porto* (CNJ)
 - **C3: R-Ladies comunidade, missão e visão** - *Gabriela de Queiroz*
