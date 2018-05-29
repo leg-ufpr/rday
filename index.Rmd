@@ -35,7 +35,7 @@ UFPR - Curitiba, PR </p>
 Endossado por:
 </p>
 <center>
-<img src="img/Rlogo.svg" width="50%" alt="Coletum">
+<img src="img/Rlogo.svg" width="50%">
 <a href="https://www.r-project.org/foundation/">
 <p style="font-size:250%; text-align:center; font-family:'Lato', sans-serif; color:black;">
 The R Foundation

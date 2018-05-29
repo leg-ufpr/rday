@@ -9,7 +9,7 @@ output:
 source("setup_knitr.R")
 ```
 
-## Apoiadores do R Day
+# Apoiadores do R Day
 
 <br>
 
@@ -29,3 +29,19 @@ Qualquer dado. Qualquer lugar.
 ```{r, echo=FALSE}
 knitr::include_graphics("img/logos_apoio.png")
 ```
+
+<br>
+<br>
+<br>
+
+# Endossado por
+
+<center>
+<a href="https://www.r-project.org/foundation/">
+<img src="img/Rlogo.svg" width="40%" alt="R Foundation">
+</a>
+</center>
+
+<p style="font-size:300%; text-align:center; font-family:'Lato', sans-serif;">
+The R Foundation
+</p>
