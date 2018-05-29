@@ -22,8 +22,8 @@ de Andrade Porto* (CNJ)
 
 ## Apresentações orais
 
-- **keras: deep learning com R** - *D Falbel*
-- **Análise de Dados Musicais no R** - *BD Wundervald*
+- **keras: deep learning com R** - *D Falbel*. [Slides](http://rday-keras.curso-r.com).
+- **Análise de Dados Musicais no R** - *BD Wundervald*. [Slides](materiais/BD_Wundervald.pdf).
 - **Utilizando o R em desenvolvimento e produção** - *D Ikenaga* [Slides](materiais/ikenaga/presentation.html)
 - **R Aplicado à Medicina de Precisão** - *B Carvalho*
 - **Modelos de regressão multivariado em R: O pacote mcglm** - *WH
