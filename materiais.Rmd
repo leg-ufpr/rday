@@ -43,7 +43,7 @@ com R** - *TS Barcellos*
 - **Machine Learning Services: Detecção de anomalias onde um desvio pode
 custar milhões** - *BDB Loureiro*
 - **ExpDes e ExpDes.pt: pacotes R para análise de experimentos** - *EB
-Ferreira & DA Nogueira*
+Ferreira & DA Nogueira*. [Slides](materiais/Apresentacao_ExpDes_RDay_2018.pdf).
 - **Revisitando o Grafico Biplot proposto por Gabriel (1971)** - *LRM
   Pinto*. [Slides](materiais/LRM_Pinto.pdf).
 - **Decryptr: Uma API Extensível para Quebrar Captchas** - *C Lente*.
