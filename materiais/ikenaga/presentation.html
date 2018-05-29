@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Utilizando o R em Desenvolvimento e Produção</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="presentation_files/shower-ribbon/package/styles/screen-16x10.css">
+  <link rel="stylesheet" href="presentation_files/rmdshower/style-common.css">
+  <link rel="stylesheet" href="presentation_files/rmdshower/style-ribbon.css">
+  <link rel="stylesheet" href="presentation_files/shower-ribbon/style-override.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"></script>
+  <script src="presentation_files/rmdshower/auto-render.min.js" type="text/javascript"></script>
+  
+  
+  
+  
+  
+</head>
+
+<body class="shower list">
+
+  <header class="caption">
+    <h1>Utilizando o R em Desenvolvimento e Produção</h1>
+    <p>Daniel Ikenaga <br>CTO &amp; Data Science do Jupter</p>
+  </header>
+
+  
+  
+<section id="utilizando-o-r-em-desenvolvimento-e-producao" class="slide level2 white">
+<h2>Utilizando o R em<br> Desenvolvimento e Produção</h2>
+<img src="images/black.png" class="cover" width=100%>
+<p class="white">
+Daniel Ikenaga (CTO &amp; Data Science do Jupter)<br> <a href="mailto:daniel@jupter.co">daniel@jupter.co</a>
+</p>
+</section>
+<section id="ambiente-de-trabalho" class="slide level2">
+<h2>Ambiente de trabalho</h2>
+<ul>
+<li>Desenvolvimento web</li>
+<li>Equipes diversificadas</li>
+</ul>
+</section>
+<section id="arquitetura" class="slide level2">
+<h2>Arquitetura</h2>
+<ul>
+<li>Desenvolvimento</li>
+<li>Homologação (servidor teste e ferramentas de teste)</li>
+<li>Produção (servidor)</li>
+</ul>
+<p><img src="images/arq.png" width=100%></p>
+</section>
+<section id="tempo" class="slide level2">
+<h2>Tempo</h2>
+<ul>
+<li>Desenvolvimento - R vs Implementações diferentes?</li>
+<li>Execução - Velocidade de resposta?</li>
+<li>Validade - Utilidade do dado?</li>
+<li>Consumo - Necessita tempo real?</li>
+</ul>
+</section>
+<section id="ferramentas" class="slide level2">
+<h2>Ferramentas</h2>
+<ul>
+<li>Frameworks: Node (JavaScript), Rails (Ruby), Django (Python), Laravel (PHP)
+<ul>
+<li>MVC - Model View Controller</li>
+<li>API Rest</li>
+</ul></li>
+<li>nginx</li>
+<li>Git (Git flow)</li>
+</ul>
+</section>
+<section id="metodo-shiny" class="slide level2">
+<h2>Método: Shiny</h2>
+<ul>
+<li>Implementação de Dashboards em Shiny em O Boticário - J Farinela &amp; L Marchioro</li>
+<li>Voronoys: Um aplicativo shiny para decifrar as eleições no Brasil - DRM Azevedo</li>
+<li>Introdução ao Shiny - WN de Amorim</li>
+<li>Gerando relatórios preformatados com Shiny, Bookdown e Glue - J de Jesus Filho</li>
+</ul>
+</section>
+<section id="metodo-cron" class="slide level2">
+<h2>Método Cron</h2>
+<p>Cron + RScript</p>
+<pre><code>.* * * * * Rscript &quot;/home/ubuntu/analysis.R&quot;</code></pre>
+</section>
+<section id="metodo-shell" class="slide level2">
+<h2>Método shell</h2>
+<p>Language -&gt; shell + RScript</p>
+<pre><code>&lt;?php
+    $A = 4;
+    $B = 1;
+    exec(&quot;Rscript soma.R $A $B&quot;);
+?&gt;</code></pre>
+</section>
+<section id="metodo-api" class="slide level2">
+<h2>Método API</h2>
+<ul>
+<li>R + <a href="https://cran.r-project.org/web/packages/httpuv/index.html">httpuv</a></li>
+<li>R + <a href="https://cran.r-project.org/web/packages/plumber/index.html">plumber</a></li>
+</ul>
+</section>
+<section id="plumber" class="slide level2">
+<h2>Plumber</h2>
+<p>soma.R</p>
+<pre><code>#* @get/soma
+soma &lt;- function(a,b){
+    as.numeric(a) + as.numeric(b)
+}</code></pre>
+<p>server.R</p>
+<pre><code>library(plumber)
+r &lt;- plumb(&quot;soma.R&quot;)
+r$run(port=80)</code></pre>
+<p><a href="http://meusite.com/soma?a=10&amp;b=15" class="uri">http://meusite.com/soma?a=10&amp;b=15</a></p>
+</section>
+<section id="metodo-db" class="slide level2">
+<h2>Método DB</h2>
+<p>R + Database (SQL, NoSQL)</p>
+<p><img src="images/r-db.png" width=100%></p>
+</section>
+<section id="outros-metodos" class="slide level2">
+<h2>Outros métodos</h2>
+<ul>
+<li><a href="https://github.com/kachkaev/php-r">php-r</a></li>
+<li><a href="https://www.npmjs.com/package/r-script">r-script</a> (Node)</li>
+<li><a href="http://rapache.net/">rApache</a></li>
+</ul>
+</section>
+<section id="cran-task-view" class="slide level2">
+<h2>CRAN Task View</h2>
+<ul>
+<li><a href="https://cran.r-project.org/web/views/ModelDeployment.html">Model Deployment with R</a></li>
+<li><a href="https://cran.r-project.org/web/views/WebTechnologies.html">Web Technologies and Services</a></li>
+<li><a href="https://cran.r-project.org/web/views/HighPerformanceComputing.html">High-Performance and Parallel Computing with R</a></li>
+</ul>
+</section>
+<section id="obrigado" class="slide level2">
+<h2>Obrigado!</h2>
+<p>Daniel Ikenaga</p>
+<p><a href="mailto:daniel@jupter.co">daniel@jupter.co</a></p>
+<p><a href="https://github.com/datasciencecuritiba" class="uri">https://github.com/datasciencecuritiba</a></p>
+</section>
+
+  <!--
+  To hide progress bar from entire presentation
+  just remove “progress” element.
+  -->
+  <!-- <div class="progress"></div> -->
+  <script src="presentation_files/rmdshower/node_modules/shower/node_modules/shower-core/shower.min.js"></script>
+  <!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+  <!-- Photos by John Carey, fiftyfootshadows.net -->
+
+    <script>renderMathInElement(document.body);</script>
+  
+  
+</body>
+</html>
