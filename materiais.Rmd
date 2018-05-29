@@ -22,7 +22,7 @@ de Andrade Porto* (CNJ)
 
 ## Apresentações orais
 
-- **keras: deep learning com R** - *D Falbel*
+- **keras: deep learning com R** - *D Falbel*. [Slides](http://rday-keras.curso-r.com).
 - **Análise de Dados Musicais no R** - *BD Wundervald*
 - **Utilizando o R em desenvolvimento e produção** - *D Ikenaga*
 - **R Aplicado à Medicina de Precisão** - *B Carvalho*
