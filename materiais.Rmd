@@ -34,7 +34,8 @@ Zeviani*
 & R Sant'Ana*
 - **Implementação de Dashboards em Shiny em O Boticário** - *J Farinela & L
 Marchioro*
-- **Justiça em Números em R Markdown** - *ITSV Stemler*
+- **Justiça em Números em R Markdown** - *ITSV Stemler*.
+  [Slides](materiais/ITSV_Stemler.pdf).
 - **Estruturação de dados de normas infralegais do Diário Oficial da União
 com R** - *TS Barcellos*
 - **Visualização de mapas Interativos** - *GS Klostermann*
