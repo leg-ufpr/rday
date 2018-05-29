@@ -22,3 +22,10 @@ source("setup_knitr.R")
 <p style="font-size:250%; text-align:center; font-family:'Lato', sans-serif;">
 Qualquer dado. Qualquer lugar.
  </p>
+
+<br>
+<br>
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/logos_apoio.png")
+```
