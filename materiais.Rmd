@@ -61,7 +61,8 @@ Ferreira & DA Nogueira*. [Slides](materiais/Apresentacao_ExpDes_RDay_2018.pdf).
   Loureiro*
 - **Introdução ao Shiny** - *WN de Amorim*
 - **Mineração de Dados aplicada à economia utilizando R** - *CS David*
-- **Criando websites com blogdown** - *EE Ribeiro Junior*. [Slides](materiais/EE_RibeiroJr/)
+- **Criando websites com blogdown** - *EE Ribeiro Junior*.
+  [Slides](materiais/EE_RibeiroJr/index.html).
 - **Análise de Big Data utilizando o pacote sparklyr** - *SVM de Macêdo*
 - **Gerando relatórios preformatados com Shiny, Bookdown e Glue** - *J de
 Jesus Filho*
