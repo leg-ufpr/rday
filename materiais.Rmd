@@ -44,7 +44,8 @@ com R** - *TS Barcellos*
 custar milhões** - *BDB Loureiro*
 - **ExpDes e ExpDes.pt: pacotes R para análise de experimentos** - *EB
 Ferreira & DA Nogueira*
-- **Revisitando o Grafico Biplot proposto por Gabriel (1971)** - *LRM Pinto*
+- **Revisitando o Grafico Biplot proposto por Gabriel (1971)** - *LRM
+  Pinto*. [Slides](materiais/LRM_Pinto.pdf).
 - **Decryptr: Uma API Extensível para Quebrar Captchas** - *C Lente*.
   [Slides](materiais/caiolente_decryptr.pdf).
 - **Voronoys: Um aplicativo shiny para decifrar as eleições no Brasil** -
