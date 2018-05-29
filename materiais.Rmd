@@ -9,6 +9,9 @@ output:
 source("setup_knitr.R")
 ```
 
+Esta página hospeda os materiais disponibilizados pelos apresentadores
+do R Day.
+
 ## Conferências
 
 - **C1: "R"eflexões: um pouco de história e experiências com o R** - *Paulo
