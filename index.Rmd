@@ -47,6 +47,7 @@ Apoio:
 <a href="https://coletum.com/pt_BR">
 <img src="img/coletum-horizontal.svg" width="60%" alt="Coletum">
 </a>
+<img src="img/logos_apoio_small.png" width="60%" alt="Coletum">
 </center>
 </div>
 </div>
