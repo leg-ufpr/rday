@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="index_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="index_files/reveal.js-3.3.0.1/css/theme/serif.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    <link href="index_files/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="section" class="slide level2 center">
+<h2></h2>
+<h1>
+Criando websites com <strong>blogdown</strong>
+</h1>
+<hr>
+<h2>
+<h2>
+<div style="margin-bottom: 100px">
+
+</div>
+<h3>
+Eduardo E. Ribeiro Jr
+</h3>
+<h4>
+<strong>1º R Day</strong> - Encontro nacional de usuários do R
+</h4>
+</section>
+<section id="section-1" class="slide level2 center" data-background="#383D3D">
+<h2></h2>
+<h1 class="white">
+Por que eu preciso de um site?
+<h1>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+<p>O que um site me proporciona:</p>
+<ul>
+<li><strong>Visibilidade</strong>;</li>
+<li><strong>Organização</strong>;</li>
+<li><strong>Portfólio</strong>;</li>
+<li><strong>Projetos</strong>;</li>
+<li><strong>Contatos</strong>.</li>
+</ul>
+</section>
+<section id="section-3" class="slide level2" data-background-image="images/homer-site.jpg" data-background-size="100%">
+<h2></h2>
+</section>
+<section id="como-criar-um-website" class="slide level2">
+<h2>Como criar um website</h2>
+<ul>
+<li>Wordpress, Wix, Blogsplot:
+<ul>
+<li>Sites dinâmicos, precisam de suporte por parte do servidor (MySql, PHP, etc.)</li>
+</ul></li>
+<li>Blogdown:
+<ul>
+<li>Sites estatísticos, são apenas um conjunto de arquivos HTML, CSS e JavaScript. Não precisam de suporte do servidor;</li>
+<li>Utiliza a linguagem de marcação Markdown. Simplicidade e portabilidade;</li>
+<li>Pode utilizar documentos dinâmicos via R Markdown (.Rmd).</li>
+</ul></li>
+</ul>
+<p><span class="myfoot"><a href=https://about.gitlab.com/2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/> Blog do GitLab, SSGs Part 1: Static vs Dynamic Websites. </a></span></p>
+</section>
+<section id="section-4" class="slide level2 center" data-background="#383D3D">
+<h2></h2>
+<h1 class="white">
+Blogdown
+<h1>
+</section>
+<section id="section-5" class="slide level2">
+<h2></h2>
+<h2>
+<img data-src="images/logo-hugo.png" height = "200em" style="vertical-align: middle; border: none; box-shadow: none"> + <img data-src="images/logo-rmarkdown.png" height = "200em" style="vertical-align: middle; border: none; box-shadow: none"> = <img data-src="images/logo-blogdown.png" height = "200em" style="vertical-align: middle; border: none; box-shadow: none">
+</h2>
+<ul>
+<li><strong>Hugo</strong>, gerador de sites estáticos:
+<ul>
+<li>Escrito em Go, gera sites de forma rápida e segura;</li>
+<li>Software livre, de código aberto e de fácil instalação;</li>
+<li>Feito para propósitos gerais.</li>
+</ul></li>
+<li><strong>R Markdown</strong>,
+<ul>
+<li>Recusa apresentações.</li>
+</ul></li>
+</ul>
+<p><span class="myfoot"><a href=http://gohugo.io/about/what-is-hugo/> Documentação do Hugo, What is Hugo </a></span></p>
+</section>
+<section id="instalacao" class="slide level2">
+<h2>Instalação</h2>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Instala a versão do CRAN</span>
+<span class="kw">install.packages</span>(<span class="st">&quot;blogdown&quot;</span>)
+
+<span class="co"># Instala a versão em desenvolvimento no GitHub</span>
+devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;rstudio/blogdown&quot;</span>)
+
+<span class="co"># Instala o Hugo</span>
+blogdown<span class="op">::</span><span class="kw">install_hugo</span>()
+
+<span class="co"># Verifica o versão do Hugo</span>
+blogdown<span class="op">::</span><span class="kw">hugo_version</span>()</code></pre></div>
+</section>
+<section id="temas-do-hugo" class="slide level2">
+<h2>Temas do Hugo</h2>
+<p><img src="images/themes-hugo.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><span class="myfoot">https://themes.gohugo.io/ </a></span></p>
+</section>
+<section id="fluxo-de-trabalho-codigos" class="slide level2">
+<h2>Fluxo de trabalho (códigos)</h2>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Criando o site (a partir de exampleSite)</span>
+<span class="kw">new_site</span>(<span class="dt">dir =</span> <span class="st">&quot;meu-site&quot;</span>, <span class="dt">theme =</span> <span class="st">&quot;username/repo&quot;</span>)
+
+<span class="co"># Gerando o site</span>
+<span class="co">#   *(gera os arquivos no diretório específico)</span>
+<span class="kw">build_site</span>()
+
+<span class="co"># Gerando site</span>
+<span class="co">#   *(inicia um servidor local para desenvolvimento contínuo)</span>
+<span class="kw">serve_site</span>()
+
+<span class="co"># Criando novo post</span>
+<span class="kw">new_post</span>(<span class="dt">title =</span> <span class="st">&quot;Meu Post2&quot;</span>,
+         <span class="dt">author =</span> <span class="st">&quot;Eduardo Jr&quot;</span>,
+         <span class="dt">categories =</span> <span class="st">&quot;pessoal&quot;</span>,
+         <span class="dt">tags =</span> <span class="st">&quot;awesome&quot;</span>,
+         <span class="dt">ext =</span> <span class="st">&quot;.Rmd&quot;</span>)</code></pre></div>
+</section>
+<section id="fluxo-de-trabalho-rstudio" class="slide level2">
+<h2>Fluxo de trabalho (RStudio)</h2>
+<ul>
+<li>Criando o site (a partir de exampleSite):
+<ul>
+<li>New Project <code>-&gt;</code> New Directory <code>-&gt;</code> Website using blogdown;</li>
+</ul></li>
+<li>Gerando o site:
+<ul>
+<li>Panel Build <code>-&gt;</code> Build Website ou Crtl + Shift + B</li>
+</ul></li>
+<li>Gerando o site (desenvolvimento contínuo):
+<ul>
+<li>Addin <code>-&gt;</code> Serve Site</li>
+</ul></li>
+<li>Criando novo post
+<ul>
+<li>Addin <code>-&gt;</code> New Post</li>
+<li>Addin <code>-&gt;</code> Update Metadata</li>
+</ul></li>
+</ul>
+</section>
+<section id="section-6" class="slide level2" data-background-image="images/fluxo.svg" data-background-size="65%">
+<h2></h2>
+</section>
+<section id="estrutura-do-diretorio-site" class="slide level2">
+<h2>Estrutura do diretório (site)</h2>
+<pre><code>.
+├── config.toml
+├── content
+│   └── post
+│       ├── 2015-07-23-r-rmarkdown.html
+│       ├── 2015-07-23-r-rmarkdown.Rmd
+│       └── hello-markdown.md
+├── docs
+├── index.Rmd
+├── static
+└── themes</code></pre>
+</section>
+<section id="arquivos-componentes-do-site" class="slide level2">
+<h2>Arquivos componentes do site</h2>
+<ul>
+<li><p>Arquivo de configuração: <code>config.[toml, yaml, yml, json]</code>;</p></li>
+<li><p>Temas disponíveis: <code>themes/</code>;</p></li>
+<li><p>Hospeda o site (arquivos HTML, CSS, JS, XML): [<code>public/</code>, <code>docs/</code>, <code>myfolder/</code>];</p></li>
+<li>Conteúdo do site:
+<ul>
+<li>Arquivos md, Rmd: <code>content/</code></li>
+<li>Arquivos gerais: <code>static/</code></li>
+</ul></li>
+<li><p>Arquivo necessário: <code>index.Rmd</code> (funcionalidade depende do tema).</p></li>
+</ul>
+</section>
+<section id="estrutura-do-diretorio-tema" class="slide level2">
+<h2>Estrutura do diretório (tema)</h2>
+<pre><code>.
+├── exampleSite
+│   ├── config.toml
+│   ├── content
+│   ├── layouts
+│   └── static
+├── layouts
+│   ├── 404.html
+│   ├── _default
+│   │   └── single.html
+│   ├── index.html
+│   └── partials
+│       ├── disqus.html
+│       ├── footer.html
+│       ├── footer_mathjax.html
+│       └── header.html
+├── static
+│   ├── css
+│   │   ├── fonts.css
+│   │   └── style.css
+│   ├── favicon.png
+│   └── js
+│       └── math-code.js
+└── theme.toml</code></pre>
+</section>
+<section id="arquivos-componentes-do-tema" class="slide level2">
+<h2>Arquivos componentes do tema</h2>
+<ul>
+<li><p>Exemplo de um site padrão: <code>exampleSite/</code></p></li>
+<li><p>Organização do site (templates HTML): <code>layouts/</code></p></li>
+<li><p>Arquivos de estilo e funcionalidades (CSS, JS, images);</p></li>
+</ul>
+</section>
+<section id="hospedando-seus-sites" class="slide level2">
+<h2>Hospedando seus sites</h2>
+<ul>
+<li>Domínio próprio:
+<ul>
+<li>Registre um domínio (R$ ??);</li>
+<li>Configure o domínio personalizado na plataforma onde está desenvolvendo o seu site.</li>
+</ul></li>
+</ul>
+</section>
+<section id="hospedando-seus-sites-1" class="slide level2">
+<h2>Hospedando seus sites</h2>
+<ul>
+<li>GitHub (.github.io):
+<ul>
+<li>Caso seja sua página pessoal, crie um repositório com o nome username.github.io e hospede nesse repositório os arquivos estáticos do seu site;</li>
+<li>Caso seja a página de um projeto, crie um ramo de nome <code>gh-pages</code> e hospede nesse ramo os arquivos estáticos do seu site;</li>
+<li>Fluxo sugerido, utilize serviços do tipo travis.ci para realizar a atualização automática do seu site.</li>
+</ul></li>
+</ul>
+</section>
+<section id="hospedando-seus-sites-2" class="slide level2">
+<h2>Hospedando seus sites</h2>
+<ul>
+<li>Rbind (.rbind.io):
+<ul>
+<li>Abra uma <em>issue</em>;</li>
+<li>Junte-se a organização www.github.com/rbind;</li>
+<li>Transfira (ou crie) o repositório do seu site nessa organização;</li>
+</ul></li>
+</ul>
+</section>
+<section id="hospedando-seus-sites-3" class="slide level2">
+<h2>Hospedando seus sites</h2>
+<ul>
+<li>Netlify (.netlify.com):
+<ul>
+<li>Crie uma conta em <a href="https://www.netlify.com/" class="uri">https://www.netlify.com/</a>;</li>
+<li>Novo site a partir de um diretório;</li>
+<li>Novo site com Git.</li>
+</ul></li>
+</ul>
+</section>
+<section id="quem-esta-usando-blogdown" class="slide level2">
+<h2>Quem está usando blogdown</h2>
+<p><br></p>
+<ul>
+<li class="fragment">Eu,<br />
+<a href="http://www.leg.ufpr.br/~eduardojr" class="uri">http://www.leg.ufpr.br/~eduardojr</a></li>
+</ul>
+<ul>
+<li class="fragment">Página do curso Data Science &amp; Big Data,<br />
+<a href="http://dsbd.leg.ufpr.br/" class="uri">http://dsbd.leg.ufpr.br/</a></li>
+</ul>
+<ul>
+<li class="fragment">Página da Curso-R,<br />
+<a href="http://curso-r.com/" class="uri">http://curso-r.com/</a></li>
+</ul>
+<ul>
+<li class="fragment">Entre muitos outros.</li>
+</ul>
+</section>
+<section id="section-7" class="slide level2 center" data-background="#383D3D">
+<h2></h2>
+<h1 class="white">
+Referências
+<h1>
+</section>
+<section id="section-8" class="slide level2 center">
+<h2></h2>
+<ul>
+<li><strong>Livro:</strong> blogdown: Creating Websites with R Markdown, por Yihui Xie, Amber Thomas, Alison Presmanes Hill, R Series.
+<ul>
+<li>Versão online: <a href="https://bookdown.org/yihui/blogdown/" class="uri">https://bookdown.org/yihui/blogdown/</a></li>
+</ul></li>
+<li><strong>Talk:</strong> Creating Websites with R Markdown and blogdown, por Yihuui Xie na rstudio::conf 2018.
+<ul>
+<li>Slides: <a href="https://bit.ly/2018-blogdown" class="uri">https://bit.ly/2018-blogdown</a></li>
+</ul></li>
+<li><strong>Repositórios:</strong>
+<ul>
+<li><a href="https://github.com/rstudio/blogdown" class="uri">https://github.com/rstudio/blogdown</a></li>
+<li><a href="https://github.com/yihui/hugo-xmin" class="uri">https://github.com/yihui/hugo-xmin</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="disponibilizacao" class="slide level2">
+<h2>Disponibilização</h2>
+<ul>
+<li><a href="http://www.leg.ufpr.br/~eduardojr/talks/rday2018" class="uri">http://www.leg.ufpr.br/~eduardojr/talks/rday2018</a></li>
+<li><a href="https://github.com/jreduardo/talks" class="uri">https://github.com/jreduardo/talks</a></li>
+</ul>
+</section>
+<section id="section-9" class="slide level2 center" data-background="#707070">
+<h2></h2>
+<h1 class="white">
+Obrigado
+<h1>
+<h4 class="gray">
+<a href="mailto:jreduardo@usp.br">jreduardo@usp.br</a> | <a href="mailto:edujrrib@gmail.com">edujrrib@gmail.com</a>
+</h4>
+<h4 class="gray">
+github.com/jreduardo
+</h4>
+</section>
+    </div>
+  </div>
+
+  <script src="index_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="index_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display a presentation progress bar
+        progress: true,
+        // Display the page number of the current slide
+        slideNumber: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: false,
+        // Transition style
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+
+        menu: {
+          custom: false,
+          themes: false,
+          transitions: false
+        },
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'index_files/reveal.js-3.3.0.1/plugin/zoom-js/zoom.js', async: true },
+          { src: 'index_files/reveal.js-3.3.0.1/plugin/menu/menu.js', async: true },
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>

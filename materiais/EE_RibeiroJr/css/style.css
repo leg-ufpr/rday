@@ -1,0 +1,144 @@
+.reveal section p {
+    text-align: left;
+}
+
+.reveal .white {
+    color: #F0F1EB
+}
+
+.reveal .gray {
+    color: #a7a7a7
+}
+
+.reveal .left {
+    text-align: left
+}
+
+li strong, h1 strong, p strong {
+    color: #8b7c69;
+}
+
+.reveal ul {
+    padding-bottom: 20px;
+    display: block;
+}
+
+.reveal ol {
+    display: block;
+}
+
+.reveal section img {
+    margin: 15px 0px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 0px solid #000;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
+}
+
+span.slide-number-a::before {
+    content: "Slide";
+    margin-right: 5px;
+}
+
+.reveal blockquote {
+    width: 100%;
+    text-align: left;
+}
+
+.reveal pre {
+    padding: 0px;
+    font-size: 0.8em;
+}
+
+.reveal code {
+    font-size: 0.8em;
+}
+
+.reveal pre code {
+    max-height: 600px;
+}
+
+p img.logo{
+  height: 1.2em;
+  width: auto;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  vertical-align: middle;
+}
+
+/*------------------------------------------- */
+/* Two columns */
+#left {
+    left: -8.33%;
+    text-align: left;
+    float: left;
+    width: 50%;
+    z-index: -10;
+}
+
+#right {
+    left: 31.25%;
+    top: 75px;
+    float: right;
+    text-align: right;
+    z-index: -10;
+    width: 50%;
+}
+
+/*------------------------------------------- */
+/* Right align */
+.reveal .myright {
+    text-align: right;
+    font-size: 0.8em !important;
+}
+.reveal .myright::before {
+    content: "→";
+}
+
+
+/*------------------------------------------- */
+/* Small size */
+.reveal .mysmall {
+    font-size: 0.9em !important;
+}
+
+/*------------------------------------------- */
+/* Bottom */
+span.myfoot {
+    margin-left: 40px;
+    font-size: 0.8em;
+    display: table;
+}
+span.myfoot::before {
+    content: "↪️"
+}
+
+/*------------------------------------------- */
+/* Table */
+.reveal table {
+    width: 95%;
+    max-width: 100%;
+    margin: auto;
+    font-size: 90%;
+    margin-bottom: 20px;
+    border-style: none;
+}
+
+.reveal thead > tr {
+    background-color: #dadada;
+    border-top: 1px solid #8e8e8e;
+    border-bottom: 1px solid #8e8e8e;
+}
+
+.reveal tbody > tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.reveal tbody > tr:nth-last-child(1) {
+    border-bottom: 1px solid #8e8e8e;
+}
+
+.reveal table td, .reveal table th {
+    padding: 3px;
+    border-style: none;
+}
