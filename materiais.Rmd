@@ -41,7 +41,8 @@ Marchioro*
   [Slides](materiais/ITSV_Stemler.pdf).
 - **Estruturação de dados de normas infralegais do Diário Oficial da União
 com R** - *TS Barcellos*
-- **Visualização de mapas Interativos** - *GS Klostermann*
+- **Visualização de mapas Interativos** - *GS Klostermann* [Slides 1](materiais/Gabriel_Sartori/mapa_pocket.html) [Slides 2](materiais/Gabriel_Sartori/mapa_imagem.html).
+
 - **Introdução ao R-INLA** - *ET Krainski*. [Slides](materiais/rinlaintro.pdf).
 - **Machine Learning Services: Detecção de anomalias onde um desvio pode
 custar milhões** - *BDB Loureiro*
