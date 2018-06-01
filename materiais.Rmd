@@ -62,7 +62,8 @@ Ferreira & DA Nogueira*. [Slides](materiais/Apresentacao_ExpDes_RDay_2018.pdf).
 - **Introdução a visualização de dados no R com ggplot2** - *TS Barcellos*
 - **Introdução ao Machine Learning Services - utilizando o R** - *BDB
   Loureiro*
-- **Introdução ao Shiny** - *WN de Amorim*
+- **Introdução ao Shiny** - *WN de Amorim*. Material no
+  [Github](https://github.com/williamorim/apresentacao-rday).
 - **Mineração de Dados aplicada à economia utilizando R** - *CS David*.
   Slides e códigos no [Github](https://github.com/ClaDavid/RDay).
 - **Criando websites com blogdown** - *EE Ribeiro Junior*.
