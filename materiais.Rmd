@@ -71,4 +71,5 @@ Ferreira & DA Nogueira*. [Slides](materiais/Apresentacao_ExpDes_RDay_2018.pdf).
 - **Análise de Big Data utilizando o pacote sparklyr** - *SVM de Macêdo*
 - **Gerando relatórios preformatados com Shiny, Bookdown e Glue** - *J de
 Jesus Filho*
-- **ddR: Estruturas de Dados Distribuídas em R** - *C Lente*
+- **ddR: Estruturas de Dados Distribuídas em R** - *C Lente*.
+  [Slides](http://ddr.ctlente.com/).
