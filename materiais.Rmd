@@ -53,7 +53,7 @@ Ferreira & DA Nogueira*. [Slides](materiais/Apresentacao_ExpDes_RDay_2018.pdf).
 - **Revisitando o Grafico Biplot proposto por Gabriel (1971)** - *LRM
   Pinto*. [Slides](materiais/LRM_Pinto.pdf).
 - **Decryptr: Uma API Extensível para Quebrar Captchas** - *C Lente*.
-  [Slides](materiais/caiolente_decryptr.pdf).
+  [Slides](http://decryptr.ctlente.com/).
 - **Voronoys: Um aplicativo shiny para decifrar as eleições no Brasil** -
 *DRM Azevedo*. [Slides](https://douglasmesquita.github.io/rday/).
 
