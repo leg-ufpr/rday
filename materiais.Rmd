@@ -41,7 +41,7 @@ Marchioro*
 - **Justiça em Números em R Markdown** - *ITSV Stemler*.
   [Slides](materiais/ITSV_Stemler.pdf).
 - **Estruturação de dados de normas infralegais do Diário Oficial da União
-com R** - *TS Barcellos*
+com R** - *TS Barcellos*.  [Slides](materiais/rdou_tomas.pdf).
 - **Visualização de mapas Interativos** - *GS Klostermann*. [Slides
   1](materiais/Gabriel_Sartori/mapa_pocket.html) e [Slides
   2](materiais/Gabriel_Sartori/mapa_imagem.html).
@@ -59,7 +59,7 @@ Ferreira & DA Nogueira*. [Slides](materiais/Apresentacao_ExpDes_RDay_2018.pdf).
 
 ## Tutoriais
 
-- **Introdução a visualização de dados no R com ggplot2** - *TS Barcellos*
+- **Introdução a visualização de dados no R com ggplot2** - *TS Barcellos*. [Slides](materiais/intro_ggplo2_tomas.pdf).
 - **Introdução ao Machine Learning Services - utilizando o R** - *BDB
   Loureiro*
 - **Introdução ao Shiny** - *WN de Amorim*. Material no
