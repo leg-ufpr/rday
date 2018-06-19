@@ -32,7 +32,7 @@ de Andrade Porto* (CNJ)
 - **Modelos de regressão multivariado em R: O pacote mcglm** - *WH
   Bonat*. [Slides](materiais/WH_Bonat.pdf).
 - **labestData: biblioteca de dados para aprendizado de estatística** - *WM
-Zeviani*
+Zeviani*. [Slides](materiais/labestData.pdf).
 - **RColetum: uma API para consumo direto de dados do Coletum** - *M Magnani
 & R Sant'Ana*. [Slides](materiais/Apresentacao_RDay_RColetum_ver00.pdf)
 e pacote [RColetum](https://github.com/geo-sapiens/RColetum).
