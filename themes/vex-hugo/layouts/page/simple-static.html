@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+
+    <base href={{ .Params.basehref }}>	  
+
+    {{- partial "meta.html" . }}
+
+    {{- partial "stylesheets.html" . }}
+  </head>
+
+  <body id="page">
+
+    {{- partial "navbar.html" . }}
+
+    <section class="section">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-12">
+
+            {{ .Content }}
+
+          </div>
+
+        </div>
+        <!-- /.row -->
+
+      </div>
+      <!-- /.container -->
+
+    </section>
+
+    {{- partial "footer.html" . }}
+
+    {{- partial "scripts.html" . }}
+
+  </body>
+</html>
