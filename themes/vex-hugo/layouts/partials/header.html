@@ -7,13 +7,15 @@ Header start
     <div class="row">
       <div class="col-md-6 text-center">
       {{- with .image }}
-        <img src="{{ relURL .path }}" alt="{{ .alt }}">
+        <img class="header-image" src="{{ relURL .path }}" alt="{{ .alt }}">
       {{- end }}
       </div>
       <div class="col-md-6">
         <div class="block">
           <h1 class="">{{ .title }}</h1>
-          <p>{{ .text }}</p>
+          <h2 class="">{{ .subtitle }}</h2>
+          <h2 class="theme" class="">{{ .theme }}</h2>
+          <p>{{ .text | markdownify }}</p>
         {{- with .button }}
           <a class="btn btn-main" href="{{ .link }}" role="button">{{ .text }}</a>
         {{- end }}

@@ -1,11 +1,12 @@
 <!-- Feature start -->
 {{- with .Site.Params.features }}
-<section class="feature section" id="feature">
+<section class="feature section" id="programacao">
   <div class="container">
     <div class="row">
       <div class="heading">
         <h2>{{ .title }}</h2>
       </div>
+<!--
       <div class="col-md-4">
       {{- range .left }}
         <div class="feature-box">
@@ -15,9 +16,10 @@
         </div>
       {{- end }}
       </div>
+-->
       {{- with .image }}
-      <div class="col-md-4 text-center">
-        <img src="{{ relURL .path }}" alt="{{ .alt }}">
+      <div class="col-md-8 text-center">
+        <img class="feature-image" src="{{ relURL .path }}" alt="{{ .alt }}">
       </div>
       {{- end }}
       <div class="col-md-4">

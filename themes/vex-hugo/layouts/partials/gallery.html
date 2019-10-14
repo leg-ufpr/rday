@@ -11,11 +11,13 @@
         {{- $basePath := relURL .directory }}
         {{- range .images }}
           <div class="block">
+<!--
             <div class="gallery-overlay">
               <a href="{{ $basePath }}/{{ . }}" class="image-popup gallery-popup">
                 <i class="tf-ion-ios-search"></i>
               </a>
             </div>
+-->
             <img class="img-fluid" src="{{ $basePath }}/{{ . }}" alt="">
           </div>
         {{- end }}
