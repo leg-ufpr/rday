@@ -1,134 +1,151 @@
-baseurl = "https://www.example.com/"
-languageCode = "en"
-title = "VEX Bootstrap 4 Product Landing Page"
+baseurl = "http://rday.leg.ufpr.br/"
+languageCode = "pt"
+title = "2º R Day"
 theme = "vex-hugo"
 
 [params]
-  description = ""
+  description = "2º R Day · 2019"
 
   # Put your custom stylesheets and scripts
-  custom_stylesheets = []
+  custom_stylesheets = ["./css/custom.css"]
   custom_scripts = []
 
   # Additional meta
   [[params.meta]]
-    name = ""
-    description = ""
+    name = "2º R Day"
+    description = "Encontro de Usuários do R"
 
   # Navigation bar informations
   [params.navbar]
-    logo = "Vex"
+    # logo = "Home"
     [[params.navbar.menu]]
       link = "#"
-      text = "HOME"
+      text = "Home"
+    # [[params.navbar.menu]]
+    #   link = "#programacao"
+    #   text = "Atividades"
+    # [[params.navbar.menu]]
+    #   link = "#gallery"
+    #   text = "Inscrições"
+    # [[params.navbar.menu]]
+    #   link = "#conferencistas"
+    #   text = "Conferencistas"
     [[params.navbar.menu]]
-      link = "#feature"
-      text = "Features"
+      link = "downloads"
+      text = "Downloads"
     [[params.navbar.menu]]
-      link = "#gallery"
-      text = "Gallery"
-    [[params.navbar.menu]]
-      link = "#testimonial"
-      text = "Testimonial"
+      link = "sobre"
+      text = "Sobre"
 
   # Header
   [params.header]
-    title = "Believe in Technology, Make the change"
-    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+    title = "2º R Day"
+    subtitle = "Encontro de Usuários do R"
+    theme = "Conectar e crescer a comunidade"
+    # text = "Encontro de Usuários do R"
+    text = '''<br/>
+
+  * 13 de Dezembro de 2019
+  * UFPR · Curitiba · Paraná
+  * [rday.leg.ufpr.br](#)
+           '''
     [params.header.image]
-      path = "images/watch.png"
-      alt = "Watch"
+      path = "images/r-day-2-logo.png"
+      alt = "2º Rday"
     [params.header.button]
-      link = "#"
-      text = "Buy Now With $199"
+      link = "./inscricao"
+      text = "Fazer inscrição"
 
   # Features
   [params.features]
-    title = "Our Core Features"
+    title = "Atividades"
     [params.features.image]
-      path = "images/watch-2.png"
-      alt = "Watch"
+      path = "images/programacao.png"
+      alt = "Atividades"
     # Menu at the left of the image
-    [[params.features.left]]
-      icon = "tf-ion-ios-alarm-outline"
-      title = "Smooth Touch"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    [[params.features.left]]
-      icon = "tf-ion-ios-bell-outline"
-      title = "Elegant Design"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    [[params.features.left]]
-      icon = "tf-ion-ios-cart-outline"
-      title = "Easy Pricing"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    # [[params.features.left]]
+    #   icon = "tf-ion-ios-alarm-outline"
+    #   title = "Smooth Touch"
+    #   text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    # [[params.features.left]]
+    #   icon = "tf-ion-ios-bell-outline"
+    #   title = "Elegant Design"
+    #   text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    # [[params.features.left]]
+    #   icon = "tf-ion-ios-cart-outline"
+    #   title = "Easy Pricing"
+    #   text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
     # Menu at the right of the image
     [[params.features.right]]
-      icon = "tf-ion-ios-alarm-outline"
-      title = "Smooth Touch"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      icon = "tf-ion-compass"
+      title = "Conferências"
+      text = "Sobre a importância e uso do R no âmbito de Ciência de Dados e Consultoria Estatística."
     [[params.features.right]]
-      icon = "tf-ion-ios-bell-outline"
-      title = "Elegant Design"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      icon = "tf-ion-ios-cog"
+      title = "Miniconferências"
+      text = "A experiência de acadêmicos e profissionais sobre o uso do R em seus ambientes de trabalho, as tendências e oportunidades para colaboração e contribuição."
     [[params.features.right]]
-      icon = "tf-ion-ios-cart-outline"
-      title = "Easy Pricing"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      icon = "tf-ion-ios-chatboxes"
+      title = "Mesa redonda"
+      text = "Ao final do evento para debater formas de conectar a crescer a comunidade."
+
+  [params.testimonials]
+    title = "Conferencistas"
+    [[params.testimonials.blocks]]
+      text = "Título da conferência em breve"
+      name = "Dan S. Reznik"
+      position = "Customer-Facing Data Science & Analytics Consultant"
+      image = "images/dan.jpg"
+    [[params.testimonials.blocks]]
+      text = "Título da conferência em breve"
+      name = "Neale Ahmed El-Dash"
+      position = "Diretor de pesquisas e consultor estatístico da SleekData"
+      image = "images/neale.jpg"
+    [[params.testimonials.blocks]]
+      text = "Título da conferência em breve"
+      name = "À confirmar"
+      position = "Conferencista 3"
+      image = "images/profile-female.png"
+    [params.testimonials.button]
+      link = "./inscricao"
+      text = "Fazer inscrição"
 
   [params.promo]
-    title = "Designed by professional , the benefit for creative gigs"
-    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.  \nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum."
+    title = "Programação completa"
+    text = '''
+  Em breve estará disponível aqui
+           '''
     [params.promo.image]
-      path = "images/watch.png"
-      alt = "Watch"
+      path = "images/airport-690556_640.jpg"
+      alt = "Programação completa"
 
   [params.feature_list]
-    title = "Why Choose Apple Watch"
+    # title = "Desejar contribuir com o 2º R Day?"
     [[params.feature_list.items]]
-      image = "images/showcase/showcase-4.png"
-      title = "Lorem ipsum dolor sit amet."
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
-      button_link = ""
-      button_text = "Check Features"
-    [[params.feature_list.items]]
-      image = "images/showcase/showcase-3.png"
-      title = "Lorem ipsum dolor sit amet."
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
-      button_link = ""
-      button_text = "Check Features"
+      image = "images/achievement.jpg"
+      title = "Seja um patrocinador"
+      text = "O 2º R Day é um evento aberto, sem fins lucrativos e com inscrição gratuita. Seja um patrocinador do evento."
+      button_link = "./sobre"
+      button_text = "Ir para contato"
+    # [[params.feature_list.items]]
+    #   image = "images/showcase/showcase-3.png"
+    #   title = "Lorem ipsum dolor sit amet."
+    #   text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+    #   button_link = ""
+    #   button_text = "Check Features"
+
+  [params.call_to_action]
+    title = "Inscreva-se já!"
+    text = "A inscrição é gratuita mas as vagas são limitadas."
+    # placeholder = "Your Email Address Here"
+    link = "./inscricao"
+    button_text = "Fazer inscrição"
 
   [params.gallery]
-    title = "Checkout some amazing Shorts"
+    title = "Realização & apoio"
     # Set the image directory to use as base
     directory = "images/showcase"
     # Set the images to show in the gallery
-    images = ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-5.png", "showcase-6.png", "showcase-7.png", "showcase-8.png"]
-
-  [params.call_to_action]
-    title = "Get Product Updates"
-    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
-    placeholder = "Your Email Address Here"
-    button_text = "Subscribe"
-
-  [params.testimonials]
-    title = "Watch Review"
-    [[params.testimonials.blocks]]
-      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
-      name = "Jonathon Andrew"
-      position = "CEO, Themefisher"
-      image = "images/avater.png"
-    [[params.testimonials.blocks]]
-      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
-      name = "Jonathon Andrew"
-      position = "CEO, Themefisher"
-      image = "images/avater.png"
-    [[params.testimonials.blocks]]
-      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
-      name = "Jonathon Andrew"
-      position = "CEO, Themefisher"
-      image = "images/avater.png"
-    [params.testimonials.button]
-      link = ""
-      text = "Grab You Product Now"
+    images = ["leg.png", "dsbd.png", "pet.png", "ufpr.png", "coletum.png"]
 
   # Footer uses navbar data
