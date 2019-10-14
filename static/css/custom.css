@@ -1,0 +1,97 @@
+/* @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap'); */
+
+body {
+    /* font-family: 'Fira Sans', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #252149;
+}
+
+img.header-image {
+    max-width: 100%;
+}
+
+img.feature-image,
+img.feature-list,
+img.promo {
+    max-width: 100%;
+    padding-right: 1em;
+    padding-bottom: 2em;
+}
+
+.subheading {
+    text-transform: none;
+}
+
+h2.theme {
+    color: #5e90c9;
+}
+
+.bg-opacity::before {
+    background: #25214999;
+}
+
+.bg-1 {
+    background-image: url(../images/call-to-action.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.btn-main,
+.btn-main:hover,
+.btn-main:focus {
+    background-color: #5e90c9;
+    color: #fff;
+}
+
+.btn-main {
+    -moz-box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+    -webkit-box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+    box-shadow: 0 15px 40px rgb(189, 189, 189);
+    background-image: -moz-linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
+    background-image: -o-linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
+    background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
+}
+
+.testimonials .testimonial-block i {
+    color: #5e90c9;
+}
+
+.testimonials .testimonial-block .author-details img {
+    border-radius: 50%;
+    width: 120px;
+}
+
+.promo-details {
+    background: #d7d8da;
+}
+
+ul:not([class]) {
+    /* padding: 2em; */
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+ul:not([class]) > li::before {
+    content: '\25B8';
+    margin-left: -1em;
+    position: absolute;
+}
+
+ul:not([class]) > li {
+    font-size: 18px;
+}
+
+#page p {
+    margin: 1em auto 1em auto;
+}
+
+img.art {
+    max-width: 100%;
+}
+
+h1 + h2 {
+    margin-top: 0.5em;
+}
