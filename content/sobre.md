@@ -1,6 +1,6 @@
 +++
 title = "Contato"
-id = "placeholder"
+id = "contato"
 type = "page"
 layout = "simple-static"
 basehref = "../"
