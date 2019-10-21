@@ -31,6 +31,9 @@ theme = "vex-hugo"
     #   link = "#conferencistas"
     #   text = "Conferencistas"
     [[params.navbar.menu]]
+      link = "programacao"
+      text = "Programação"
+    [[params.navbar.menu]]
       link = "downloads"
       text = "Downloads"
     [[params.navbar.menu]]
@@ -87,7 +90,7 @@ theme = "vex-hugo"
     [[params.features.right]]
       icon = "tf-ion-ios-chatboxes"
       title = "Mesa redonda"
-      text = "Ao final do evento para debater formas de conectar a crescer a comunidade."
+      text = "Ao final do evento para debater formas de conectar e crescer a comunidade de usuários e desenvolvedores."
 
   [params.testimonials]
     title = "Conferencistas"
@@ -110,14 +113,14 @@ theme = "vex-hugo"
       link = "./inscricao"
       text = "Fazer inscrição"
 
-  [params.promo]
-    title = "Programação completa"
-    text = '''
-  Em breve estará disponível aqui
-           '''
-    [params.promo.image]
-      path = "images/airport-690556_640.jpg"
-      alt = "Programação completa"
+  # [params.promo]
+  #   title = "Programação completa"
+  #   text = '''
+  # [Acesse a programação do 2º R Day aqui.](./programacao)
+  #          '''
+  #   [params.promo.image]
+  #     path = "images/airport-690556_640.jpg"
+  #     alt = "Programação completa"
 
   [params.feature_list]
     # title = "Desejar contribuir com o 2º R Day?"
