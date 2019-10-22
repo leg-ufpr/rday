@@ -13,7 +13,8 @@ TODO: procurar ícones em https://infinitered.github.io/ionicons-version-3-searc
 -->
 
 Programação provisória do 2º R Day. Sujeita a alteração conforme
-disponibilidade de horário dos conferencitas.
+disponibilidade de horário dos conferencistas. C: Conferência; P:
+Palestra.
 
 | <i class="tf-ion-ios-time-outline"></i> Horário | <i class="tf-ion-ios-contact-outline"></i> Atividade                             |
 |-------------------------------------------------|-------------------------------------------------------------------------------|
