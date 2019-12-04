@@ -1,0 +1,14 @@
+{{ with .Site.Params.maps }}
+<section class="maps section" id="maps">
+  <div class="container">
+    <div class="row">
+      <div class="heading">
+        <h2>{{ .title }}</h2>
+      </div>
+      <div class="col-md-12 text-center">
+        {{ .text | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
