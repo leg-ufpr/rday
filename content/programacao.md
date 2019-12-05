@@ -50,7 +50,8 @@ Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">T
 
 <tr>
 <td>10:40</td>
-<td>P2 · <a href="https://br.linkedin.com/in/jonas-liebl-36b792128/">Jonas Liebl</a> · Caixa Econômica Federal</td>
+<td>P2 · <strong>R - O Desafio do Aprendizado</strong></br>
+<a href="https://br.linkedin.com/in/jonas-liebl-36b792128/">Jonas Liebl</a> · Caixa Econômica Federal</td>
 </tr>
 
 <tr>
@@ -70,7 +71,8 @@ Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">T
 
 <tr>
 <td>12:20</td>
-<td>P5 · <a href="https://br.linkedin.com/in/conrado-cabane">Conrado Cabane</a> · Rentcars</td>
+<td>P5 · <strong>O R Como Ferramenta de Trabalho em Startups</strong></br>
+<a href="https://br.linkedin.com/in/conrado-cabane">Conrado Cabane</a> · Rentcars</td>
 </tr>
 
 <tr>
@@ -110,7 +112,8 @@ Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">T
 
 <tr>
 <td>17:10</td>
-<td>P10 · <a href="http://lattes.cnpq.br/3772572021776598">Marcos Minoru Hasegawa</a> · UFPR</td>
+<td>P10 · <strong>O ensino do R aplicado à Economia através do RMarkdown</strong></br>
+<a href="http://lattes.cnpq.br/3772572021776598">Marcos Minoru Hasegawa</a> · UFPR</td>
 </tr>
 
 <tr>
