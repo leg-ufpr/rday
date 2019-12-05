@@ -38,7 +38,7 @@ Quadro de programação do 2º R Day. C: Conferência; P: Palestra.
 
 <tr>
 <td>09:25</td>
-<td>C1 · <strong>5 Mitos sobre Ciência de Dados</strong><br>
+<td>C1 · <strong>Desfazendo Mitos da Ciência de Dados</strong><br>
 <a href="https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/">Dan S. Reznik</a></td>
 </tr>
 
@@ -124,3 +124,5 @@ Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">T
 </tr>
 </tbody>
 </table>
+
+<!---------------------------------------------------------------------- -->
