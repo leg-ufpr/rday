@@ -61,7 +61,8 @@ Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">T
 
 <tr>
 <td>11:30</td>
-<td>P3 · <a href="https://www.linkedin.com/in/jessicajrmathias/">Jéssica J. R. Mathias</a> · CLAMED Farmácias</td>
+<td>P3 · <strong>Desafios e Oportunidades no uso do RStudio</strong></br>
+<a href="https://www.linkedin.com/in/jessicajrmathias/">Jéssica J. R. Mathias</a> · CLAMED Farmácias</td>
 </tr>
 
 <tr>
@@ -92,7 +93,8 @@ Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">T
 
 <tr>
 <td>15:30</td>
-<td>P7 · <a href="http://lattes.cnpq.br/8571953244068598">Maikon Di Domenico</a> · UFPR</td>
+<td>P7 · <strong>Esse R ainda vai bombar, professor!</strong><br>
+<a href="http://lattes.cnpq.br/8571953244068598">Maikon Di Domenico</a> · UFPR</td>
 </tr>
 
 <tr>
@@ -118,7 +120,8 @@ Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">T
 
 <tr>
 <td>17:35</td>
-<td>C3 · <a href="https://www.linkedin.com/in/neale/">Neale Ahmed El-Dash</a> · Sleek Data</td>
+<td>C3 · <strong>R te dá asas ...</strong></br>
+<a href="https://www.linkedin.com/in/neale/">Neale Ahmed El-Dash</a> · Sleek Data</td>
 </tr>
 
 <tr>
