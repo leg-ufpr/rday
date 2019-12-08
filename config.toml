@@ -95,7 +95,7 @@ theme = "vex-hugo"
   [params.testimonials]
     title = "Conferencistas"
     [[params.testimonials.blocks]]
-      text = "Título da conferência em breve"
+      text = "Desfazendo Mitos da Ciência de Dados"
       name = "Dan S. Reznik"
       position = "Customer-Facing Data Science & Analytics Consultant"
       image = "images/dan.jpg"
@@ -105,7 +105,7 @@ theme = "vex-hugo"
       position = "R Ladies SP"
       image = "images/beatriz.jpg"
     [[params.testimonials.blocks]]
-      text = "Título da conferência em breve"
+      text = "R te dá asas..."
       name = "Neale Ahmed El-Dash"
       position = "Diretor de pesquisas e consultor estatístico da SleekData"
       image = "images/neale.jpg"
