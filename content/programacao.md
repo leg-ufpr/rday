@@ -45,7 +45,7 @@ Quadro de programação do 2º R Day. C: Conferência; P: Palestra.
 <tr>
 <td>10:15</td>
 <td>P1 · <strong>Uso do R para Modelos de Cobrança</strong><br>
-Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">Tadeu R. da Costa </a> · Bradesco</td>
+Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">Tadeu R. da Costa</a> · Bradesco</td>
 </tr>
 
 <tr>
@@ -109,7 +109,8 @@ Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">T
 
 <tr>
 <td>16:45</td>
-<td>P9 · <a href="http://lattes.cnpq.br/4254166557545108">Allan Libanio Pelissari</a> · UFPR</td>
+<td>P9 · <strong>Ensino e Pesquisa em Engenharia Florestal com R</strong></br>
+<a href="http://lattes.cnpq.br/4254166557545108">Allan Libanio Pelissari</a> · UFPR</td>
 </tr>
 
 <tr>
