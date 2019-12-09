@@ -83,7 +83,8 @@ Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">T
 
 <tr>
 <td>14:15</td>
-<td>C2 · <a href="https://www.linkedin.com/in/beatrizmilz/">Beatriz Milz</a> · R Ladies SP</td>
+<td>C2 · <strong>R-Ladies, Comunidades e a Importância das Iniciativas de Diversidade</strong></br>
+<a href="https://www.linkedin.com/in/beatrizmilz/">Beatriz Milz</a> · R Ladies SP</td>
 </tr>
 
 <tr>
