@@ -88,12 +88,13 @@ Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">T
 
 <tr>
 <td>15:05</td>
-<td>P6 · <a href="https://br.linkedin.com/in/samuel-mac%C3%AAdo-755a8763">Samuel Macêdo</a> · IFPE</td>
+<td>P6 · <strong>Desmistificando Big Data: É Possível Manipular Grandes Bases de Dados em R?</strong><br>
+<a href="https://br.linkedin.com/in/samuel-mac%C3%AAdo-755a8763">Samuel Macêdo</a> · IFPE</td>
 </tr>
 
 <tr>
 <td>15:30</td>
-<td>P7 · <strong>Esse R ainda vai bombar, professor!</strong><br>
+<td>P7 · <strong>Esse R Ainda Vai Bombar, Professor!</strong><br>
 <a href="http://lattes.cnpq.br/8571953244068598">Maikon Di Domenico</a> · UFPR</td>
 </tr>
 
@@ -115,13 +116,13 @@ Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">T
 
 <tr>
 <td>17:10</td>
-<td>P10 · <strong>O ensino do R aplicado à Economia através do RMarkdown</strong></br>
+<td>P10 · <strong>O Ensino do R Aplicado à Economia Através do RMarkdown</strong></br>
 <a href="http://lattes.cnpq.br/3772572021776598">Marcos Minoru Hasegawa</a> · UFPR</td>
 </tr>
 
 <tr>
 <td>17:35</td>
-<td>C3 · <strong>R te dá asas ...</strong></br>
+<td>C3 · <strong>R te Dá Asas ...</strong></br>
 <a href="https://www.linkedin.com/in/neale/">Neale Ahmed El-Dash</a> · Sleek Data</td>
 </tr>
 
