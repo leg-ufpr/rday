@@ -67,7 +67,8 @@ Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">T
 
 <tr>
 <td>11:55</td>
-<td>P4 · <a href="https://www.linkedin.com/in/jreduardo/">Eduardo Elias Ribeiro Jr</a> · dr.consulta</td>
+<td>P4 · <strong>Gerenciamento de Dependências para Projetos R em Produção</strong></br>
+<a href="https://www.linkedin.com/in/jreduardo/">Eduardo Elias Ribeiro Jr</a> · dr.consulta</td>
 </tr>
 
 <tr>
@@ -81,16 +82,24 @@ Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">T
 <td>··· Almoço ···</td>
 </tr>
 
+<!--
 <tr>
 <td>14:15</td>
 <td>C2 · <strong>R-Ladies, Comunidades e a Importância das Iniciativas de Diversidade</strong></br>
 <a href="https://www.linkedin.com/in/beatrizmilz/">Beatriz Milz</a> · R Ladies SP</td>
 </tr>
+-->
+
+<tr>
+<td>14:15</td>
+<td>C2 · <strong>Desmistificando Big Data: É Possível Manipular Grandes Bases de Dados em R?</strong><br>
+<a href="https://br.linkedin.com/in/samuel-mac%C3%AAdo-755a8763">Samuel Victor Medeiros de Macêdo</a> · IFPE</td>
+</tr>
 
 <tr>
 <td>15:05</td>
-<td>P6 · <strong>Desmistificando Big Data: É Possível Manipular Grandes Bases de Dados em R?</strong><br>
-<a href="https://br.linkedin.com/in/samuel-mac%C3%AAdo-755a8763">Samuel Macêdo</a> · IFPE</td>
+<td>P6 · <strong>A definir</strong><br>
+<a href="http://leg.ufpr.br/~fernandomayer/">Fernando de Pol Mayer</a> · UFPR</td>
 </tr>
 
 <tr>
@@ -101,7 +110,8 @@ Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">T
 
 <tr>
 <td>15:55</td>
-<td>P8 · <a href="http://lattes.cnpq.br/0091501164531871">Maurício Osvaldo Moura</a> · UFPR</td>
+<td>P8 · <strong>De Onde Viemos... Para Onde Vamos: Usando o R para Entender Evolução</strong></br>
+<a href="http://lattes.cnpq.br/0091501164531871">Maurício Osvaldo Moura</a> · UFPR</td>
 </tr>
 
 <tr>
