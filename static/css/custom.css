@@ -63,6 +63,14 @@ h2.theme {
     width: 120px;
 }
 
+.testimonials .testimonial-block .author-details p {
+    color: #252149;
+}
+
+.testimonials .testimonial-block .author-details span {
+    color: #777;
+}
+
 .promo-details {
     background: #d7d8da;
 }
