@@ -98,7 +98,7 @@ Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">T
 
 <tr>
 <td>15:05</td>
-<td>P6 · <strong>A definir</strong><br>
+<td>P6 · <strong>R na UFPR: Origens e Perspectivas</strong><br>
 <a href="http://leg.ufpr.br/~fernandomayer/">Fernando de Pol Mayer</a> · UFPR</td>
 </tr>
 
