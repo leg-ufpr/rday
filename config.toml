@@ -37,6 +37,9 @@ theme = "vex-hugo"
       link = "downloads"
       text = "Downloads"
     [[params.navbar.menu]]
+      link = "album"
+      text = "Fotos"
+    [[params.navbar.menu]]
       link = "sobre"
       text = "Sobre"
 
