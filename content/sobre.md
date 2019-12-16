@@ -12,6 +12,7 @@ basehref = "../"
   * Fernando de Pol Mayer (LEG/UFPR) - Vice coordenador
   * Wagner Hugo Bonat (LEG/UFPR) - Tesoureiro
   * Paulo Justiniano Ribeiro Jr. (LEG/UFPR)
+  * Grupo PET Estatística (<https://pet-estatistica.github.io/site/>).
 
 # Contato
 
