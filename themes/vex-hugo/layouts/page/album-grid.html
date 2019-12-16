@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+
+    <base href={{ .Params.basehref }}>
+
+    {{- partial "meta.html" . }}
+
+    {{- partial "stylesheets.html" . }}
+  </head>
+
+  <body id="{{ .Params.id }}">
+
+    {{- partial "navbar.html" . }}
+
+    <section class="section">
+
+      <div class="container">
+
+        {{ .Content }}
+
+        <div class="row">
+        {{ $url := "/pictures/resized" }}
+        {{ range $index, $files := readDir "/static/pictures/resized" }}
+        <div class="col-md-6">
+          <img
+              src="{{ $url }}/{{ .Name }}"
+              style="width: 100%;">
+            </img>
+        </div>
+        {{ end }}
+        </div>
+        <!-- /.row -->
+
+      </div>
+      <!-- /.container -->
+
+    </section>
+
+    {{- partial "footer.html" . }}
+
+    {{- partial "scripts.html" . }}
+
+  </body>
+</html>
