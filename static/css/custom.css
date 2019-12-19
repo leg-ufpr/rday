@@ -142,16 +142,16 @@ table {
     min-width: 600px;
 }
 
-tbody tr td,
-tbody tr th {
-    width: 25%;
-    /* text-align: right; */
-}
-tbody tr td + td,
-tbody tr th + th {
-    width: 75%;
-    /* text-align: left; */
-}
+/* tbody tr td, */
+/* tbody tr th { */
+/*     width: 25%; */
+/*     /\* text-align: right; *\/ */
+/* } */
+/* tbody tr td + td, */
+/* tbody tr th + th { */
+/*     width: 75%; */
+/*     /\* text-align: left; *\/ */
+/* } */
 
 body#programacao,
 body#contato {
