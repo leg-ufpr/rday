@@ -25,4 +25,4 @@ basehref = "../"
 ---
 # Material dos conferencistas
 
-Em breve
+Estão disponíveis para download na [tabela de programação](../programacao).
