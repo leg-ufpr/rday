@@ -48,7 +48,7 @@ Quadro de programação do 2º R Day. C: Conferência; P: Palestra.
 <tr>
 <td>10:15</td>
 <td>P1 · <strong>Uso do R para Modelos de Cobrança</strong><br>
-Eder da Silva e <a href="https://www.linkedin.com/in/tadeu-rodrigues-4776a752">Tadeu R. da Costa</a> · Bradesco</td>
+<a href="https://www.linkedin.com/in/eder-da-silva-89a52819a/">Eder da Silva</a> · Bradesco</td>
 <td><a href="./slides/eder.pdf" target="_blank"><i class="tf-ion-document"></i></a></td>
 </tr>
 
