@@ -1,10 +1,10 @@
 baseurl = "http://rday.leg.ufpr.br/"
 languageCode = "pt"
-title = "2º R Day"
+title = "3º R Day"
 theme = "vex-hugo"
 
 [params]
-  description = "2º R Day · 2019"
+  description = "3º R Day · 2021"
 
   # Put your custom stylesheets and scripts
   custom_stylesheets = ["./css/custom.css"]
@@ -12,7 +12,7 @@ theme = "vex-hugo"
 
   # Additional meta
   [[params.meta]]
-    name = "2º R Day"
+    name = "3º R Day"
     description = "Encontro de Usuários do R"
 
   # Navigation bar informations
@@ -33,31 +33,35 @@ theme = "vex-hugo"
     [[params.navbar.menu]]
       link = "programacao"
       text = "Programação"
-    [[params.navbar.menu]]
-      link = "downloads"
-      text = "Downloads"
-    [[params.navbar.menu]]
-      link = "album"
-      text = "Fotos"
+    # [[params.navbar.menu]]
+    #   link = "downloads"
+    #   text = "Downloads"
+    # [[params.navbar.menu]]
+    #   link = "album"
+    #   text = "Fotos"
     [[params.navbar.menu]]
       link = "sobre"
       text = "Sobre"
+    [[params.navbar.menu]]
+      link = "anteriores"
+      text = "Eventos anteriores"
+
 
   # Header
   [params.header]
-    title = "2º R Day"
+    title = "3º R Day"
     subtitle = "Encontro de Usuários do R"
     theme = "Conectar e crescer a comunidade"
     # text = "Encontro de Usuários do R"
     text = '''<br/>
 
-  * 13 de Dezembro de 2019
-  * UFPR · Curitiba · Paraná
+  * 09 de setembro de 2021
+  * Encontro virtual
   * [rday.leg.ufpr.br](#)
            '''
     [params.header.image]
-      path = "images/r-day-2-logo.png"
-      alt = "2º Rday"
+      path = "images/r-day-3-logo.png"
+      alt = "3º Rday"
     [params.header.button]
       link = "./inscricao"
       text = "Fazer inscrição"
