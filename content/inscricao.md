@@ -55,17 +55,11 @@ ou tem outras preocupações, entre em contato com um membro da comissão
 organizadora do R Day imediatamente.
 
 Os organizadores do R Day estarão dispostos em ajudar os participantes a
-entrar em contato com a segurança do Campus ou com a aplicação da lei
-local, fornecer escoltadores ou, de outra forma, ajudar aqueles que
-sofrem de assédio para se sentirem seguros durante a vigência do evento.
+entrar em contato com as entidades competentes para a aplicação da lei
+local, e ajudar aqueles que sofrem de assédio para se sentirem seguros
+durante a vigência do evento.
 
 Esperamos que os participantes sigam essas regras em todas as etapas do
-evento (incluindo todas as atividades e *coffee break**).
+evento.
 
-<br>
-<center>
-<a href="https://coletum.com/en_US/account/2742/form/9453/answer/new" class="btn btn-default btn-main">Ir para formulário de inscrição</a>
-<center/>
-
-**Importante**: este formulário de inscrição NÃO enviará email de
-confirmação.
+## Link para inscrição em breve

@@ -8,6 +8,67 @@ basehref: "../"
 
 # Submissões
 
-## Submissão de tutorial
+Todos os interessados são convidados a enviar propostas para
+apresentações orais (projetos e pacotes em R) e tutoriais (diversas
+ferramentas).
 
 ## Submissão de trabalho
+
+As apresentações orais terão duração total de 15 minutos e poderao serem
+apresentadas "ao vivo" ou enviadas gravadas previamente. Nesse último
+caso, a gravação será transmitida ao vivo no horário especificado.
+
+Serão consideradas propostas para apresentação de pacotes desenvolvidos
+em R ou projetos que usam o R como principal ferramenta.
+
+As propostas para apresentação oral devem conter as seguintes
+informações:
+
+- Nome do apresentador
+- Email
+- Universidade/Instituição/Empresa
+- Título
+- Resumo (máximo de 200 palavras)
+
+<center>
+[**FORMULÁRIO PARA ENVIO DE APRESENTAÇÃO ORAL**](https://forms.gle/BMJ2sSVxa5YwZiJZ8)
+</center>
+
+<center>
+**O prazo para submissão de trabalhos é 28/08**
+</center>
+
+## Submissão de tutorial
+
+Ao total serão 8 tutorias, com duração de 1:30 hora cada. Os tutoriais
+devem ser sobre o uso de algum pacote específico ou qualquer outra
+ferramenta que possa ser utilizada com o R.
+
+As propostas para tutoriais devem conter as seguintes informações:
+
+- Nome
+- Email
+- Universidade/Instituição/Empresa
+- Título do tutorial
+- Objetivo
+- Descrição
+- Nível (iniciante/intermediário/avançado)
+- Pré-requisitos (se houver)
+
+Os tutoriais serão realizados pela plataforma Sympla, que disponibiliza
+uma sala exclusiva no Zoom para cada tutorial. Serão aceitas no máximo
+100 inscrições por tutorial.
+
+<br>
+
+*O R Day é um evento sem fins lucrativos e organizado voluntariamente,
+por isso não há nenhum tipo de compensação financeira ou de qualquer
+outro tipo para os tutores selecionados*.
+
+<center>
+[**FORMULÁRIO PARA ENVIO DE PROPOSTA DE TUTORIAL**](https://forms.gle/bSNhVC2njSTKQPgb6)
+</center>
+
+<center>
+**O prazo para submissão de propostas de tutoriais é 25/08**
+</center>
