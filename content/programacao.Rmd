@@ -10,12 +10,12 @@ basehref: "../"
 
 Algo novo e ainda mais e mais
 
-```{r, echo=FALSE, messages=FALSE, warnings=FALSE}
-library(knitr, quietly = TRUE)
+```{r, echo=FALSE, messages=FALSE, warnings=FALSE, results='hide'}
+library(knitr, quietly = TRUE, warn.conflicts = FALSE)
 ## https://github.com/haozhu233/kableExtra/issues/595
-library(kableExtra, quietly = TRUE)
-library(dplyr, quietly = TRUE)
-library(tidyr, quietly = TRUE)
+library(kableExtra, quietly = TRUE, warn.conflicts = FALSE)
+library(dplyr, quietly = TRUE, warn.conflicts = FALSE)
+library(tidyr, quietly = TRUE, warn.conflicts = FALSE)
 
 dd <- read.table("cronograma.csv", header = TRUE,
                  sep = ",", check.names = FALSE)
@@ -32,6 +32,7 @@ dd |>
                       c("striped", "bordered", "responsive"),
                   full_width = FALSE, position = "center") |>
     column_spec(1:5, color = "3f3f3f") |>
+    column_spec(1, background = "white") |>
     column_spec(3:4, width = "7cm") |>
     collapse_rows(1, valign = "top", col_names = FALSE) |>
     add_header_above(c("Descrição" = 1, "Hora" = 1, "Atividades" = 2, "Local" =  1))

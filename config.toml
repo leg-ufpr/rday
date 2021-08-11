@@ -88,34 +88,34 @@ theme = "vex-hugo"
     # Menu at the right of the image
     [[params.features.right]]
       icon = "tf-ion-compass"
-      title = "Conferências"
-      text = "Sobre a importância e uso do R no âmbito de Ciência de Dados e Consultoria Estatística."
+      title = "Tutoriais"
+      text = "Tutoriais curtos sobre as diversas possibilidades que o R proporciona."
     [[params.features.right]]
       icon = "tf-ion-ios-cog"
       title = "Palestras"
       text = "A experiência de acadêmicos e profissionais sobre o uso do R em seus ambientes de trabalho, as tendências e oportunidades para colaboração e contribuição."
     [[params.features.right]]
       icon = "tf-ion-ios-chatboxes"
-      title = "Mesa redonda"
-      text = "Ao final do evento para debater formas de conectar e crescer a comunidade de usuários e desenvolvedores."
+      title = "Apresentações"
+      text = "Oportunidade para apresentação de pacotes e e trabalhos desenvolvidos em R."
 
   [params.testimonials]
     title = "Conferencistas"
     [[params.testimonials.blocks]]
-      text = "Desfazendo Mitos da Ciência de Dados"
-      name = "Dan S. Reznik"
-      position = "Customer-Facing Data Science & Analytics Consultant"
-      image = "images/dan.jpg"
+      #text = "Desfazendo Mitos da Ciência de Dados"
+      name = "Em breve"
+      #position = "Customer-Facing Data Science & Analytics Consultant"
+      image = "images/profile-female.png"
     [[params.testimonials.blocks]]
-      text = "Desmistificando Big Data: É Possível Manipular Grandes Bases de Dados em R?"
-      name = "Samuel Macêdo"
-      position = "Ciêntista de Dados & Desenvolvedor R"
-      image = "images/samuel.jpeg"
+      #text = "Desmistificando Big Data: É Possível Manipular Grandes Bases de Dados em R?"
+      name = "Em breve"
+      #position = "Ciêntista de Dados & Desenvolvedor R"
+      image = "images/profile-female.png"
     [[params.testimonials.blocks]]
-      text = "R te Dá Asas..."
-      name = "Neale Ahmed El-Dash"
-      position = "Diretor de Pesquisas & Consultor Estatístico da SleekData"
-      image = "images/neale.jpg"
+      #text = "R te Dá Asas..."
+      name = "Em breve"
+      #position = "Diretor de Pesquisas & Consultor Estatístico da SleekData"
+      image = "images/profile-female.png"
     [params.testimonials.button]
       link = "./inscricao"
       text = "Fazer inscrição"
@@ -131,33 +131,17 @@ theme = "vex-hugo"
 
   [params.maps]
     title = "Endereço"
-    text = '''
-  <p>
-  Auditório do Prédio de Administração · 1º Andar</br>
-  Centro Politécnico · Campus III · Universidade Federal do Paraná</br>
-  Jardim das Américas, Curitiba - PR
-  </p>
-  <div class="row" style="margin: 3em auto;">
-    <a href="https://goo.gl/maps/CyTHc8tvq4xG1ZMQA" class="btn btn-main">Abrir endereço</a><br>
-  </div>
-  <iframe
-   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d900.6584189097025!2d-49.23303141185918!3d-25.450507888021505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce5109424c361%3A0x933ac80eef1c0cd!2zUHLDqWRpbyBkZSBBZG1pbmlzdHJhw6fDo28!5e0!3m2!1spt-BR!2sbr!4v1575463857614!5m2!1spt-BR!2sbr"
-   width="100%"
-   height="450"
-   frameborder="0"
-   style="border:0;"
-   allowfullscreen="">
-  </iframe>
-  '''
+    text = "O evento será completamente online"
+  
 
-  [params.feature_list]
+  # [params.feature_list]
     # title = "Desejar contribuir com o 2º R Day?"
-    [[params.feature_list.items]]
-      image = "images/achievement.jpg"
-      title = "Seja um patrocinador"
-      text = "O 2º R Day é um evento aberto, sem fins lucrativos e com inscrição gratuita. Seja um patrocinador do evento."
-      button_link = "./sobre"
-      button_text = "Ir para contato"
+    # [[params.feature_list.items]]
+    #  image = "images/achievement.jpg"
+    #  title = "Seja um patrocinador"
+    #  text = "O 2º R Day é um evento aberto, sem fins lucrativos e com inscrição gratuita. Seja um patrocinador do evento."
+    #  button_link = "./sobre"
+    #  button_text = "Ir para contato"
     # [[params.feature_list.items]]
     #   image = "images/showcase/showcase-3.png"
     #   title = "Lorem ipsum dolor sit amet."
@@ -177,6 +161,6 @@ theme = "vex-hugo"
     # Set the image directory to use as base
     directory = "images/showcase"
     # Set the images to show in the gallery
-    images = ["leg.png", "dsbd.png", "pet.png", "ufpr.png", "coletum.png"]
+    images = ["leg.png", "dsbd.png", "pet.png", "ufpr.png"]
 
   # Footer uses navbar data

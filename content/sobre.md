@@ -8,11 +8,11 @@ basehref = "../"
 
 # Comissão organizadora local
 
-  * Walmes Marques Zeviani (LEG/UFPR) - Coordenador
-  * Fernando de Pol Mayer (LEG/UFPR) - Vice coordenador
-  * Wagner Hugo Bonat (LEG/UFPR) - Tesoureiro
+  * Fernando de Pol Mayer (LEG/UFPR) - Coordenador
+  * Walmes Marques Zeviani (LEG/UFPR) - Vice-coordenador
+  * Wagner Hugo Bonat (LEG/UFPR)
   * Paulo Justiniano Ribeiro Jr. (LEG/UFPR)
-  * Grupo PET Estatística (<https://pet-estatistica.github.io/site/>).
+  * Grupo PET Estatística (<https://pet.leg.ufpr.br>).
 
 # Contato
 
