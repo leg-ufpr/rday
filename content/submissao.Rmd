@@ -1,0 +1,13 @@
+---
+title: "Submissões"
+id: "placeholder"
+type: "page"
+layout: "simple-static"
+basehref: "../"
+---
+
+# Submissões
+
+## Submissão de tutorial
+
+## Submissão de trabalho

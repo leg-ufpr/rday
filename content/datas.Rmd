@@ -1,0 +1,33 @@
+---
+title: "Datas importantes"
+id: "placeholder"
+type: "page"
+layout: "simple-static"
+basehref: "../"
+---
+
+# Datas importantes
+
+```{r, echo=FALSE, messages=FALSE, warnings=FALSE, results='hide'}
+library(knitr, quietly = TRUE, warn.conflicts = FALSE)
+## https://github.com/haozhu233/kableExtra/issues/595
+library(kableExtra, quietly = TRUE, warn.conflicts = FALSE)
+library(dplyr, quietly = TRUE, warn.conflicts = FALSE)
+library(tidyr, quietly = TRUE, warn.conflicts = FALSE)
+
+dp <- read.table("datas.csv", header = TRUE,
+                 sep = ";", check.names = FALSE)
+str(dp)
+```
+
+```{r, echo=FALSE}
+dp |>
+    kable(col.names = NULL) |>
+    kable_styling(bootstrap_options = c("striped", "bordered")) |>
+    column_spec(1:2, color = "3f3f3f") |>
+    pack_rows("Submissões", 1, 2, color = "3f3f3f", background = "lightgrey") |>
+    pack_rows("Inscrições", 3, 4, color = "3f3f3f", background = "lightgrey") |>
+    pack_rows("Encontro nacional de usuários do R", 5, 5,
+              color = "3f3f3f", background = "lightgrey")
+## save_kable("datas_tab.html")
+```
