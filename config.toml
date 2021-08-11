@@ -51,7 +51,7 @@ theme = "vex-hugo"
   [params.header]
     title = "3º R Day"
     subtitle = "Encontro de Usuários do R"
-    theme = "Conectar e crescer a comunidade"
+    theme = "Valorizando a historia e a comunidade"
     # text = "Encontro de Usuários do R"
     text = '''<br/>
 

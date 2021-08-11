@@ -1,8 +1,8 @@
-/* @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
 
 body {
-    /* font-family: 'Fira Sans', sans-serif; */
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif; */
     color: #252149;
 }
 
@@ -30,12 +30,12 @@ h2.theme {
     background: #25214999;
 }
 
-.bg-1 {
-    background-image: url(../images/call-to-action.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
+/* .bg-1 { */
+/*     background-image: url(../images/call-to-action.jpg); */
+/*     background-repeat: no-repeat; */
+/*     background-attachment: fixed; */
+/*     background-position: center; */
+/* } */
 
 .btn-main,
 .btn-main:hover,
@@ -155,7 +155,7 @@ table {
 
 body#programacao,
 body#contato {
-    background-image: url("../images/r-day-2-logo-background.png");
+    /* background-image: url("../images/r-day-2-logo-background.png"); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
