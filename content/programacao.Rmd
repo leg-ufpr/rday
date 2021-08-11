@@ -1,0 +1,67 @@
+---
+title: "Programação"
+id: "programacao"
+type: "page"
+layout: "simple-static"
+basehref: "../"
+---
+
+# Programação
+
+Algo novo e ainda mais e mais
+
+```{r, echo=FALSE, messages=FALSE, warnings=FALSE}
+library(knitr, quietly = TRUE)
+## https://github.com/haozhu233/kableExtra/issues/595
+library(kableExtra, quietly = TRUE)
+library(dplyr, quietly = TRUE)
+library(tidyr, quietly = TRUE)
+
+dd <- read.table("cronograma.csv", header = TRUE,
+                 sep = ",", check.names = FALSE)
+str(dd)
+```
+
+```{r, echo=FALSE}
+dd |>
+    mutate(Atividade1 = replace_na(Atividade1, ""),
+           Atividade2 = replace_na(Atividade2, ""),
+           Local = replace_na(Local, "")) |>
+    kable(col.names = NULL, align = "lcllc") |>
+    kable_styling(bootstrap_options =
+                      c("striped", "bordered", "responsive"),
+                  full_width = FALSE, position = "center") |>
+    column_spec(1:5, color = "3f3f3f") |>
+    column_spec(3:4, width = "7cm") |>
+    collapse_rows(1, valign = "top", col_names = FALSE) |>
+    add_header_above(c("Descrição" = 1, "Hora" = 1, "Atividades" = 2, "Local" =  1))
+## save_kable("crono.html")
+```
+
+```{r, eval=FALSE, include=FALSE}
+## Tentativa em outro formato
+dd <- read.table("cronograma2.csv", header = TRUE,
+                 sep = ",", check.names = FALSE)
+str(dd)
+
+dd |>
+    dplyr::select(1:2) |>
+    ## unite("Atividade", 2:3, sep = " | ") |>
+    kable(col.names = NULL, align = "c") |>
+    kable_styling(bootstrap_options =
+                      c("striped", "bordered", "responsive"),
+                  full_width = FALSE) |>
+    ## add_header_above(c("Hora" = 1, "Atividades" = 2)) |>
+    pack_rows("Abertura", 1, 1, color = "3f3f3f", background = "lightgrey") |>
+    pack_rows("Tutoriais", 2, 3, color = "3f3f3f", background = "lightgrey") |>
+    pack_rows("Almoço", 4, 4, color = "3f3f3f", background = "lightgrey") |>
+    pack_rows("Palestra", 5, 5, color = "3f3f3f", background = "lightgrey") |>
+    pack_rows("Apresentações", 6, 9, color = "3f3f3f", background = "lightgrey") |>
+    pack_rows("Palestra", 10, 10, color = "3f3f3f", background = "lightgrey") |>
+    pack_rows("Apresentações", 11, 14, color = "3f3f3f", background = "lightgrey") |>
+    pack_rows("Palestra", 15, 15, color = "3f3f3f", background = "lightgrey") |>
+    pack_rows("Encerramento", 16, 16, color = "3f3f3f", background = "lightgrey") |>
+    pack_rows("Tutoriais", 17, 18, color = "3f3f3f", background = "lightgrey") |>
+    column_spec(1:2, color = "3f3f3f") |>
+    save_kable("crono.html")
+```
