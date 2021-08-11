@@ -8,7 +8,12 @@ basehref: "../"
 
 # Programação
 
-Algo novo e ainda mais e mais
+A seguir segue a programação planejada inicialmente para o R Day.
+Eventuais ajustes poderão ocorrer antes do evento.
+
+- T1, ..., T8: tutoriais
+- A1, ..., A8: apresentações de trabalhos
+
 
 ```{r, echo=FALSE, messages=FALSE, warnings=FALSE, results='hide'}
 library(knitr, quietly = TRUE, warn.conflicts = FALSE)
@@ -29,10 +34,10 @@ dd |>
            Local = replace_na(Local, "")) |>
     kable(col.names = NULL, align = "lcllc") |>
     kable_styling(bootstrap_options =
-                      c("striped", "bordered", "responsive"),
+                      c("striped", "bordered"),
                   full_width = FALSE, position = "center") |>
     column_spec(1:5, color = "3f3f3f") |>
-    column_spec(1, background = "white") |>
+    column_spec(1, background = "white", bold = TRUE) |>
     column_spec(3:4, width = "7cm") |>
     collapse_rows(1, valign = "top", col_names = FALSE) |>
     add_header_above(c("Descrição" = 1, "Hora" = 1, "Atividades" = 2, "Local" =  1))

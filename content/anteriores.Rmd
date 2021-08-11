@@ -8,5 +8,37 @@ basehref: "../"
 
 # Eventos anteriores
 
-- R Day 2018 http://rday.leg.ufpr.br/rday2018
-- R Day 2019 http://rday.leg.ufpr.br/rday2019
+## R Day 2019
+
+http://rday.leg.ufpr.br/rday2019
+
+<img src="./images/r-day-2-logo.png" alt="" width="400"/>
+
+## R Day 2018
+
+http://rday.leg.ufpr.br/rday2018
+
+<img src="./images/r-day.png" alt="" width="600"/>
+
+
+```{r, echo=FALSE, eval=FALSE, include=FALSE}
+library(knitr, quietly = TRUE, warn.conflicts = FALSE)
+## https://github.com/haozhu233/kableExtra/issues/595
+library(kableExtra, quietly = TRUE, warn.conflicts = FALSE)
+library(dplyr, quietly = TRUE, warn.conflicts = FALSE)
+library(tidyr, quietly = TRUE, warn.conflicts = FALSE)
+
+tbl_img <- data.frame(
+    name = c("R Day 2019", "R Day 2018"),
+    logo = ""
+)
+
+tbl_img |>
+    kbl(booktabs = TRUE, col.names = NULL) |>
+    kable_paper(full_width = F) |>
+    column_spec(
+        2, image = spec_image(
+               c("./images/r-day-2-logo.png", "./images/r-day.png"),
+               800, 600))
+
+```

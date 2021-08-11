@@ -33,6 +33,15 @@ theme = "vex-hugo"
     [[params.navbar.menu]]
       link = "programacao"
       text = "Programação"
+    [[params.navbar.menu]]
+      link = "inscricao"
+      text = "Inscrições"
+    [[params.navbar.menu]]
+      link = "submissao"
+      text = "Submissões"
+    [[params.navbar.menu]]
+      link = "datas"
+      text = "Datas"
     # [[params.navbar.menu]]
     #   link = "downloads"
     #   text = "Downloads"
@@ -50,8 +59,8 @@ theme = "vex-hugo"
   # Header
   [params.header]
     title = "3º R Day"
-    subtitle = "Encontro de Usuários do R"
-    theme = "Valorizando a historia e a comunidade"
+    subtitle = "Encontro Nacional de Usuários do R"
+    theme = "Valorizando a história e a comunidade"
     # text = "Encontro de Usuários do R"
     text = '''<br/>
 
@@ -97,7 +106,7 @@ theme = "vex-hugo"
     [[params.features.right]]
       icon = "tf-ion-ios-chatboxes"
       title = "Apresentações"
-      text = "Oportunidade para apresentação de pacotes e e trabalhos desenvolvidos em R."
+      text = "Oportunidade para apresentação de pacotes e trabalhos desenvolvidos em R."
 
   [params.testimonials]
     title = "Conferencistas"
@@ -131,8 +140,8 @@ theme = "vex-hugo"
 
   [params.maps]
     title = "Endereço"
-    text = "O evento será completamente online"
-  
+    text = "O evento será completamente online. Em breve serão divulgadas mais informações."
+
 
   # [params.feature_list]
     # title = "Desejar contribuir com o 2º R Day?"
@@ -151,7 +160,7 @@ theme = "vex-hugo"
 
   [params.call_to_action]
     title = "Inscreva-se já!"
-    text = "A inscrição é gratuita mas as vagas são limitadas."
+    text = "A inscrição é gratuita."
     # placeholder = "Your Email Address Here"
     link = "./inscricao"
     button_text = "Fazer inscrição"

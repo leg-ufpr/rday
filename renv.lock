@@ -177,10 +177,15 @@
     },
     "knitr": {
       "Package": "knitr",
-      "Version": "1.33",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "0bc1b5da1b0eb07cd4b727e95e9ff0b8"
+      "Version": "1.33.8",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "knitr",
+      "RemoteUsername": "yihui",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "55a2df9353af1157b3954a968cfef5c1e30dd64c",
+      "Hash": "a9e3b1d2ca79595e8cdbf12c8782190d"
     },
     "labeling": {
       "Package": "labeling",
