@@ -18,9 +18,9 @@ img.promo {
     padding-bottom: 2em;
 }
 
-.subheading {
-    text-transform: none;
-}
+/* .subheading { */
+/*     text-transform: none; */
+/* } */
 
 h2.theme {
     color: #5e90c9;
@@ -98,6 +98,10 @@ h3 + p {
     margin: 1em auto 1em auto;
 }
 
+p {
+    margin: 1em auto 1em auto;
+}
+
 img.art {
     max-width: 100%;
 }
@@ -142,36 +146,36 @@ table {
     min-width: 600px;
 }
 
-/* tbody tr td, */
-/* tbody tr th { */
-/*     width: 25%; */
-/*     /\* text-align: right; *\/ */
-/* } */
-/* tbody tr td + td, */
-/* tbody tr th + th { */
-/*     width: 75%; */
-/*     /\* text-align: left; *\/ */
-/* } */
-
-body#programacao,
-body#contato {
-    /* background-image: url("../images/r-day-2-logo-background.png"); */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 800px;
-    /* background-size: cover; */
+tbody tr td,
+tbody tr th {
+    width: 25%;
+    /* text-align: right; */
 }
+tbody tr td + td,
+tbody tr th + th {
+    width: 75%;
+    /* text-align: left; */
+}
+
+/* body#programacao, */
+/* body#contato { */
+/*     /\* background-image: url("../images/r-day-2-logo-background.png"); *\/ */
+/*     background-repeat: no-repeat; */
+/*     background-attachment: fixed; */
+/*     background-position: center; */
+/*     background-size: 800px; */
+/*     /\* background-size: cover; *\/ */
+/* } */
 
 /* Para o footer ficar colado embaixo da página. */
 /* https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b */
-html,
-body#programacao,
-body#contato {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
+/* html, */
+/* body#programacao, */
+/* body#contato { */
+/*     height: 100%; */
+/*     display: flex; */
+/*     flex-direction: column; */
+/* } */
 
 footer {
   margin-top: auto;

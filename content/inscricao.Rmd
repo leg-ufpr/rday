@@ -1,10 +1,10 @@
-+++
-title = "Inscrição"
-id = "placeholder"
-type = "page"
-layout = "simple-static"
-basehref = "../"
-+++
+---
+title: "Inscrição"
+id: "placeholder"
+type: "page"
+layout: "simple-static"
+basehref: "../"
+---
 
 # Orientações para inscrição
 
@@ -62,4 +62,6 @@ durante a vigência do evento.
 Esperamos que os participantes sigam essas regras em todas as etapas do
 evento.
 
-## Link para inscrição em breve
+<center>
+[**FORMULÁRIO PARA INSCRIÇÃO NO R DAY**](https://www.sympla.com.br/3-r-day--encontro-nacional-dos-usuarios-do-r__1310564)
+</center>
