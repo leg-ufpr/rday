@@ -2,6 +2,7 @@ baseurl = "http://rday.leg.ufpr.br/"
 languageCode = "pt"
 title = "3º R Day"
 theme = "vex-hugo"
+# googleAnalytics = "UA-66454501-3"
 
 [params]
   description = "3º R Day · 2021"
