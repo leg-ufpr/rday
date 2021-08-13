@@ -102,6 +102,10 @@ p {
     margin: 1em auto 1em auto !important;
 }
 
+.section {
+    padding: 10px;
+}
+
 img.art {
     max-width: 100%;
 }
