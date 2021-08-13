@@ -99,7 +99,7 @@ h3 + p {
 }
 
 p {
-    margin: 1em auto 1em auto;
+    margin: 1em auto 1em auto !important;
 }
 
 img.art {
