@@ -46,10 +46,15 @@
     },
     "blogdown": {
       "Package": "blogdown",
-      "Version": "1.4",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "6bd14b113999113c89ee250590011a5b"
+      "Version": "1.4.2",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "blogdown",
+      "RemoteUsername": "rstudio",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "f8c0ef77ec6bb51dba1a32f56b21e2298b5c1922",
+      "Hash": "cc4cd33c2d03bfb1b6dcdefc880151a3"
     },
     "bookdown": {
       "Package": "bookdown",
@@ -369,10 +374,10 @@
     },
     "servr": {
       "Package": "servr",
-      "Version": "0.23",
+      "Version": "0.22",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "75a40cd4f8503fe175be6b213009767f"
+      "Hash": "8cfe5c1d3a8c8304496ba3034e080405"
     },
     "stringi": {
       "Package": "stringi",
