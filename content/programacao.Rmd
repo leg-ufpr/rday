@@ -11,9 +11,12 @@ basehref: "../"
 A seguir segue a programação planejada inicialmente para o R Day.
 Eventuais ajustes poderão ocorrer antes do evento.
 
-- T1, ..., T8: tutoriais
-- A1, ..., A8: apresentações de trabalhos
+- [Cronograma](programacao#cronograma)
+- [Palestras](programacao#palestras)
+- [Tutoriais](programacao#tutoriais)
+- [Apresentações orais](programacao#apresentações-orais)
 
+## Cronograma
 
 ```{r, echo=FALSE, messages=FALSE, warnings=FALSE, results='hide'}
 library(knitr, quietly = TRUE, warn.conflicts = FALSE)
@@ -29,18 +32,17 @@ str(dd)
 
 ```{r, echo=FALSE}
 dd |>
-    mutate(Atividade1 = replace_na(Atividade1, ""),
-           Atividade2 = replace_na(Atividade2, ""),
+    mutate(Atividade = replace_na(Atividade, ""),
            Local = replace_na(Local, "")) |>
-    kable(col.names = NULL, align = "lcllc") |>
+    kable(align = "lclc") |>
     kable_styling(bootstrap_options =
                       c("striped", "bordered"),
                   full_width = FALSE, position = "center") |>
-    column_spec(1:5, color = "3f3f3f") |>
+    column_spec(1:4, color = "3f3f3f") |>
     column_spec(1, background = "white", bold = TRUE) |>
-    column_spec(3:4, width = "7cm") |>
-    collapse_rows(1, valign = "top", col_names = FALSE) |>
-    add_header_above(c("Descrição" = 1, "Hora" = 1, "Atividades" = 2, "Local" =  1))
+    row_spec(c(7, 12, 17), background = "lightgray") |>
+    collapse_rows(1, valign = "top", col_names = FALSE)
+
 ## save_kable("crono.html")
 ```
 
@@ -71,3 +73,172 @@ dd |>
     column_spec(1:2, color = "3f3f3f") |>
     save_kable("crono.html")
 ```
+
+## Palestras
+
+### The Development of the R Community
+
+#### Heather Turner (University of Warwick, UK e R Foundation)
+
+*[Heather](https://www.heatherturner.net) is a Research Software
+Engineering Fellow in the Statistics Department at the University of
+Warwick, UK. She has previously worked as a statistician in the
+pharmaceutical industry and as a freelance statistical programming
+consultant. She has been an R user since 2001 and has co-authored
+several CRAN packages, notably the statistical modelling packages gnm,
+BradleyTerry2 and PlackettLuce. Heather is on the board of the R
+Foundation and chairs the Forwards taskforce for underrepresented groups
+in the R community. She is also a co-organizer of R-Ladies Remote.*
+
+### R: 2 décadas
+
+#### José Cáudio Faria (UESC, Brasil)
+
+*[José Cláudio
+Faria](http://nbcgib.uesc.br/lec/professores/jcfaria/pag-pessoal/pt)
+possui graduação em Engenharia Agronômica pela Universidade Federal de
+Viçosa (1982), mestrado em Fitotecnia (Produção Vegetal) pela
+Universidade Federal de Viçosa (1995), doutorado em Fitotecnia (Produção
+Vegetal) pela Universidade Federal de Viçosa (2000), pós-doutorado
+sabático (Estatística e Experimentação Agronômica) pela Escola Superior
+de Agricultura Luiz de Queiroz (2007) e pós-doutorado (Estatística e
+Experimentação Agronômica) pela Escola Superior de Agricultura Luiz de
+Queiroz (2008). Tem atuado principalmente nos seguintes temas: ensino de
+estatística, desenvolvimento de software para o ambiente R, planejamento
+de experimentos, análise de dados (uni e multivariados).*
+
+### A Brief History of R Markdown
+
+#### Yihui Xie (RStudio, EUA)
+
+R Markdown is widely used today in the R community, enabling us to write
+reports, author books, create websites, make slides, and so on. In this
+talk, I will trace R Markdown back to its ancestor, i.e., Knuth's
+Literate Programming, and introduce the history all the way from
+WEB/noweb, Sweave, knitr, and rmarkdown. I will share a few things that
+I learned from both the history and the community in the past decade.
+
+*[Yihui Xie](https://en.wikipedia.org/wiki/Yihui_Xie) is a software
+engineer at [RStudio](https://www.rstudio.com). He earned his PhD from
+the Department of Statistics, Iowa State University. He is interested in
+interactive statistical graphics and statistical computing. As an active
+R user, he has authored several R packages, such as knitr, bookdown,
+blogdown, xaringan, animation, DT, tinytex, pagedown, tufte, formatR,
+fun, servr, and Rd2roxygen, among which the animation package won the
+2009 John M. Chambers Statistical Software Award (ASA). He also
+co-authored a few other R packages, including shiny, rmarkdown, rticles,
+and leaflet. He has published a number of books, including "Dynamic
+Documents with R and knitr", "bookdown: Authoring Books and Technical
+Documents with R Markdown", "blogdown: Creating Websites with R
+Markdown", "R Markdown: The Definitive Guide", and "R Markdown
+Cookbook."*
+
+*In 2006, he founded the [Capital of Statistics](https://cosx.org), which
+has grown into a large online community on statistics in China. He
+initiated the Chinese R conference in 2008, and has been involved in
+organizing R conferences in China since then. During his PhD training at
+Iowa State University, he won the Vince Sposito Statistical Computing
+Award (2011) and the Snedecor Award (2012) in the Department of
+Statistics.*
+
+## Tutoriais
+
+### T1: Faça apresentações ninja em R: conhecendo o pacote xaringan
+
+**Beatriz Milz**
+
+O xaringan é um pacote que tem como objetivo possibilitar a criação de
+apresentações em com R. Sob o contexto de programação em R, a combinação
+entre os pacotes RMarkdown e xaringan nos oferece uma elegante forma de
+criar slides usando R e RStudio, permitindo adicionar códigos que são
+executados ao gerar a apresentação.   Com isso, a proposta desta oficina
+consiste em apresentar uma introdução sobre como criar apresentações
+usando os pacotes mencionados. O público alvo deste minicurso são
+pessoas de todas as áreas, que tenham interesse em aprender como criar
+slides reprodutíveis usando R.
+
+- Nível: intermediário
+- Objetivo: Introduzir uma forma de criar apresentações usando o pacote
+  xaringan
+- Pré-requisitos: R e RStudio instalados e atualizados, instalação dos
+  pacotes: knitr, rmarkdown, xaringan, xaringanthemer, pagedown
+
+### T2: Implementando modelos estatísticos de maneira eficiente com o TMB
+
+**Henrique Laureano, Ricardo Petterle e Wagner Bonat (3)**
+
+O [Template Model Builder
+(TMB)](https://cran.r-project.org/web/packages/TMB/index.html) é um
+pacote R que possibilita o ajuste de complexos modelos estatísticos de
+efeito aleatório. Diferente da maioria dos pacotes R, aqui o modelo é
+formulado em C++. Tal característica fornece uma grande flexibilidade e
+eficiência computacional, tirando vantagem de diversas bibliotecas
+estado-da-arte e de implementações eficientes, extremamente uteis num
+mundo que demanda modelos estatísticos maiores e mais complexos. Neste
+tutorial os principais aspectos metodológicos do TMB serão explicados e
+exemplificados, seguido do passo-a-passo de como implementar e estimar
+uma diversa gama de modelos lineares mistos.
+
+- Nível: intermediário
+- Objetivo: Introduzir a metodologia implementada no pacote e fornecer
+  diversos exemplos, desde diferenciação automática até a implementação
+  e estimação de modelos lineares de efeito fixo e de efeito aleatório
+  não-Gaussianos.
+- Pré-requisitos: R básico
+
+*[Henrique A Laureano](https://henriquelaureano.github.io) é Estatístico
+do Instituto de Pesquisa Pelé Pequeno Príncipe (IPPPP) e membro do
+Laboratório de Estatística e Geoinformação (LEG) da UFPR. Bacharel em
+Estatística (2016) com mestrado em Métodos Numéricos em Engenharia
+(2021), ambos pela Universidade Federal do Paraná (UFPR).*
+
+*[Ricardo R
+Petterle](https://www.linkedin.com/in/ricardo-rasmussen-petterle-84a94831/)
+é Estatístico do Departamento de Medicina Integrada e membro do
+Laboratório de Estatística e Geoinformação (LEG), ambos da Universidade
+Federal do Paraná (UFPR). Bacharel em Estatística (2013) com mestrado em
+Engenharia de Produção (2018), ambos pela UFPR. Doutorando em Métodos
+Numéricos em Engenharia, também na UFPR.*
+
+*[Wagner H Bonat](http://www.leg.ufpr.br/~wagner/) é Professor do
+Departamento de Estatística da Universidade Federal do Paraná (UFPR).
+Coordenador do Curso de Especialização em Data Science & Big Data (DSBD)
+e membro do Laboratório de Estatística e Geoinformação (LEG), ambos da
+UFPR. Bacharel em Estatística (2008) com mestrado em Métodos Numéricos
+em Engenharia (2010), ambos pela UFPR. Ph.D. em Matemática e Ciência da
+Computação pela University of Southern Denmark (USD, 2016).*
+
+### T5: Machine Learning: como automatizar todo o processo utilizando o pacoto tidymodels
+
+**Samuel Victor Medeiros de Macêdo**
+
+O tutorial proposto será divido em três etapas: Visão geral do pipeline
+de machine learning, aplicação em dados reais e automatização. Não
+adianta apresentar linhas e mais linhas de código se o aluno não
+compreende a visão geral do pipeline de machine learning. Por esse
+motivo, na primeira etapa será explicado os conceitos de: split de
+treino e teste, pre processamento, escolha de modelo, tuning dos
+parâmetros e validação do modelo. Na segunda etapa será mostrado aos
+alunos aplicações, em dados reais, de um modelo de regressão, um de
+classificação e um de clusterização. Por fim, será mostrado como
+realizar comparação entre vários modelos ao mesmo tempo e automatizar
+todo este processo. Dessa forma, é possível reaproveitar esse código
+quando a base de dados inicial for apenas atualizada, ou seja, muito
+útil em processos que necessitem de modelagem quando estão em produção.
+
+- Nível: intermediário
+- Objetivo: O conhecimento na área de machine learning vem cada vez mais
+sendo um diferencial no mercado de trabalho para o estatístico e
+cientista de dados. O pacote tidymodels, desenvolvido pelo Rstudio,
+ajuda bastante em todo o pipeline de machine learning, pois encapsula
+todas as etapas: pre-processamento, escolha do modelo, tuning de
+parametros e previsão. O objetivo desse tutorial será explicar, passo a
+passo, como utilizar o tidymodels em todas as etapas do pipeline de
+machine learning. De posse deste conhecimento, o aluno terá autonomia
+para realizar suas próprias modelagem e automatizar o processo que possa
+ser reaproveitado para novas entradas.
+- Pré-requisitos: R básico
+
+## Apresentações orais
+
+Em breve.

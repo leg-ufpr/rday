@@ -35,7 +35,7 @@ informações:
 </center>
 
 <center>
-**O prazo para submissão de trabalhos é 28/08**
+**O prazo para submissão de trabalhos é 03/09**
 </center>
 
 ## Submissão de tutorial
@@ -70,5 +70,5 @@ outro tipo para os tutores selecionados*.
 </center>
 
 <center>
-**O prazo para submissão de propostas de tutoriais é 25/08**
+**O prazo para submissão de propostas de tutoriais é 03/09**
 </center>

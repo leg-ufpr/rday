@@ -1,19 +1,23 @@
-Descrição,Hora,Atividade1,Atividade2,Local
-Abertura,09:00 – 09:30,Cerimônia de abertura,NA,Youtube
-Tutoriais,09:30 – 11:00,T1,T2,Zoom
-Tutoriais,11:00 – 12:30,T3,T4,Zoom
-Almoço,12:30 – 14:00,NA,NA,NA
-Palestra 1,14:00 – 15:00,Em breve,NA,Youtube
-Apresentações,15:00 – 15:15,A1,NA,Youtube
-Apresentações,15:15 – 15:30,A2,NA,Youtube
-Apresentações,15:30 – 15:45,A3,NA,Youtube
-Apresentações,15:35 – 16:00,A4,NA,Youtube
-Palestra 2,16:00 – 17:00,Em breve,NA,Youtube
-Apresentações,17:00 – 17:15,A5,NA,Youtube
-Apresentações,17:15 – 17:30,A6,NA,Youtube
-Apresentações,17:30 – 17:45,A7,NA,Youtube
-Apresentações,17:45 – 18:00,A8,NA,Youtube
-Palestra 3,18:00 – 19:00,Em breve,NA,Youtube
-Encerramento,19:00 – 19:30,Cerimônia de encerramento,NA,Youtube
-Tutoriais,19:30 – 21:00,T5,T6,Zoom
-Tutoriais,21:00 – 22:30,T7,T8,Zoom
+Descrição,Hora,Atividade,Local
+Abertura,09:00 – 09:30,Cerimônia de abertura,Youtube
+Tutoriais,09:30 – 11:00,T1,Zoom
+Tutoriais,09:30 – 11:00,T2,Zoom
+Tutoriais,11:00 – 12:30,T3,Zoom
+Tutoriais,11:00 – 12:30,T4,Zoom
+Almoço,12:30 – 14:00,NA,NA
+Palestra 1,14:00 – 15:00,"Heather Turner (University of Warwick, UK e R Foundation)",Youtube
+Apresentações,15:00 – 15:15,A1,Youtube
+Apresentações,15:15 – 15:30,A2,Youtube
+Apresentações,15:30 – 15:45,A3,Youtube
+Apresentações,15:35 – 16:00,A4,Youtube
+Palestra 2,16:00 – 17:00,"José Claudio Faria (UESC, Brasil)",Youtube
+Apresentações,17:00 – 17:15,A5,Youtube
+Apresentações,17:15 – 17:30,A6,Youtube
+Apresentações,17:30 – 17:45,A7,Youtube
+Apresentações,17:45 – 18:00,A8,Youtube
+Palestra 3,18:00 – 19:00,"Yihui Xie (Rstudio, EUA)",Youtube
+Encerramento,19:00 – 19:30,NA,Youtube
+Tutoriais,19:30 – 21:00,T5,Zoom
+Tutoriais,19:30 – 21:00,T6,Zoom
+Tutoriais,21:00 – 22:30,T7,Zoom
+Tutoriais,21:00 – 22:30,T8,Zoom
