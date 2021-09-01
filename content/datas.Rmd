@@ -25,6 +25,7 @@ dp |>
     kable(col.names = NULL) |>
     kable_styling(bootstrap_options = c("striped", "bordered")) |>
     column_spec(1:2, color = "3f3f3f") |>
+    column_spec(2, bold = TRUE) |>
     pack_rows("Submissões", 1, 2, color = "3f3f3f", background = "lightgrey") |>
     pack_rows("Inscrições", 3, 4, color = "3f3f3f", background = "lightgrey") |>
     pack_rows("Encontro nacional de usuários do R", 5, 5,
