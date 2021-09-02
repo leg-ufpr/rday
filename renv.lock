@@ -11,10 +11,10 @@
   "Packages": {
     "R6": {
       "Package": "R6",
-      "Version": "2.5.0",
+      "Version": "2.5.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b203113193e70978a696b2809525649d"
+      "Hash": "470851b6d5d0ac559e9d01bb352b4021"
     },
     "RColorBrewer": {
       "Package": "RColorBrewer",
@@ -46,17 +46,22 @@
     },
     "blogdown": {
       "Package": "blogdown",
-      "Version": "1.4",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "6bd14b113999113c89ee250590011a5b"
+      "Version": "1.4.6",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteUsername": "rstudio",
+      "RemoteRepo": "blogdown",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "75eaa4d0bdad2da49226b8a240d41e14cb78109a",
+      "RemoteHost": "api.github.com",
+      "Hash": "f11c353968c7851274f95d854ce8a648"
     },
     "bookdown": {
       "Package": "bookdown",
-      "Version": "0.22",
+      "Version": "0.23",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "8fb0b67dfdf9d751fc93cb0036def3cc"
+      "Hash": "bc07f4b5b93bbf21075429e0c7e090f8"
     },
     "callr": {
       "Package": "callr",
@@ -142,6 +147,13 @@
       "Repository": "CRAN",
       "Hash": "c98eb5133d9cb9e1622b8691487f11bb"
     },
+    "fastmap": {
+      "Package": "fastmap",
+      "Version": "1.1.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "77bd60a6157420d4ffa93b27cf6a58b8"
+    },
     "generics": {
       "Package": "generics",
       "Version": "0.1.0",
@@ -165,17 +177,17 @@
     },
     "htmltools": {
       "Package": "htmltools",
-      "Version": "0.5.1.1",
+      "Version": "0.5.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "af2c2531e55df5cf230c4b5444fc973c"
+      "Hash": "526c484233f42522278ab06fb185cb26"
     },
     "httpuv": {
       "Package": "httpuv",
-      "Version": "1.6.1",
+      "Version": "1.6.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "54344a78aae37bc6ef39b1240969df8e"
+      "Hash": "a42959b003aad9fc351b10250c5a6b77"
     },
     "httr": {
       "Package": "httr",
@@ -183,6 +195,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "a525aba14184fec243f9eaec62fbed43"
+    },
+    "jquerylib": {
+      "Package": "jquerylib",
+      "Version": "0.1.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5aab57a3bd297eee1c1d862735972182"
     },
     "jsonlite": {
       "Package": "jsonlite",
@@ -205,15 +224,15 @@
     },
     "knitr": {
       "Package": "knitr",
-      "Version": "1.33.8",
+      "Version": "1.33.9",
       "Source": "GitHub",
       "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "knitr",
       "RemoteUsername": "yihui",
+      "RemoteRepo": "knitr",
       "RemoteRef": "HEAD",
-      "RemoteSha": "55a2df9353af1157b3954a968cfef5c1e30dd64c",
-      "Hash": "a9e3b1d2ca79595e8cdbf12c8782190d"
+      "RemoteSha": "0dcd462eefd21086ef20ea33220f2964c45fb7ea",
+      "RemoteHost": "api.github.com",
+      "Hash": "f3ca43a5182d68bb4abc9e362e14492b"
     },
     "labeling": {
       "Package": "labeling",
@@ -224,10 +243,10 @@
     },
     "later": {
       "Package": "later",
-      "Version": "1.2.0",
+      "Version": "1.3.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b61890ae77fea19fc8acadd25db70aa4"
+      "Hash": "7e7b457d7766bc47f2a5f21cc2984f8e"
     },
     "lifecycle": {
       "Package": "lifecycle",
@@ -242,13 +261,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "41287f1ac7d28a92f0a286ed507928d3"
-    },
-    "markdown": {
-      "Package": "markdown",
-      "Version": "1.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "61e4a10781dd00d7d81dd06ca9b94e95"
     },
     "mime": {
       "Package": "mime",
@@ -315,15 +327,15 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.14.0-3",
+      "Version": "0.14.0-7",
       "Source": "GitHub",
       "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "renv",
       "RemoteUsername": "rstudio",
+      "RemoteRepo": "renv",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9344caf707ab31d7e6e64bc7c42215a052df19ad",
-      "Hash": "c8d862d73f30c7ad50b0a793c48b66b1"
+      "RemoteSha": "04e737386a6346ab74003f4af2b1fbb0de2eff7b",
+      "RemoteHost": "api.github.com",
+      "Hash": "206c2624e94f54951681eb50de9276c7"
     },
     "rlang": {
       "Package": "rlang",
@@ -376,10 +388,10 @@
     },
     "stringi": {
       "Package": "stringi",
-      "Version": "1.7.3",
+      "Version": "1.7.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "7943cfae120c77a255025e5f63856532"
+      "Hash": "ebaccb577da50829a3bb1b8296f318a5"
     },
     "stringr": {
       "Package": "stringr",
@@ -411,10 +423,10 @@
     },
     "tibble": {
       "Package": "tibble",
-      "Version": "3.1.3",
+      "Version": "3.1.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "038455513fde65e79c25e724e0c84ca2"
+      "Hash": "5e8ad5621e5c94b24ec07b88eee13df8"
     },
     "tidyr": {
       "Package": "tidyr",
