@@ -165,7 +165,7 @@ slides reprodutíveis usando R.
 
 ### T2: Implementando modelos estatísticos de maneira eficiente com o TMB
 
-**Henrique Laureano, Ricardo Petterle e Wagner Bonat (3)**
+**Henrique Laureano, Ricardo Petterle e Wagner Bonat**
 
 O [Template Model Builder
 (TMB)](https://cran.r-project.org/web/packages/TMB/index.html) é um
