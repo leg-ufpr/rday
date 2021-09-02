@@ -92,7 +92,7 @@ in the R community. She is also a co-organizer of R-Ladies Remote.*
 
 ### R: 2 décadas
 
-#### José Cáudio Faria (UESC, Brasil)
+#### José Cláudio Faria (UESC, Brasil)
 
 *[José Cláudio
 Faria](http://nbcgib.uesc.br/lec/professores/jcfaria/pag-pessoal/pt)
@@ -208,7 +208,7 @@ UFPR. Bacharel em Estatística (2008) com mestrado em Métodos Numéricos
 em Engenharia (2010), ambos pela UFPR. Ph.D. em Matemática e Ciência da
 Computação pela University of Southern Denmark (USD, 2016).*
 
-### T5: Machine Learning: como automatizar todo o processo utilizando o pacoto tidymodels
+### T5: Machine Learning: como automatizar todo o processo utilizando o pacote tidymodels
 
 **Samuel Victor Medeiros de Macêdo**
 
