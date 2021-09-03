@@ -115,7 +115,7 @@ theme = "vex-hugo"
       text = "The Development of the R Community"
       name = "Heather Turner"
       position = "University of Warwick, UK e R Foundation"
-      image = "images/heather2.png"
+      image = "images/heather.jpg"
     [[params.testimonials.blocks]]
       text = "R: 2 décadas"
       name = "José Cláudio Faria"

@@ -6,6 +6,13 @@ layout: "simple-static"
 basehref: "../"
 ---
 
+```{css, echo=FALSE}
+#hp  {
+    float: left;
+    margin: 0 15px 0 0;
+}
+```
+
 # Programação
 
 A seguir segue a programação planejada inicialmente para o R Day.
@@ -80,6 +87,8 @@ dd |>
 
 #### Heather Turner (University of Warwick, UK e R Foundation)
 
+<img src="images/heather.jpg" style="float:left" width="160px" id="hp"/>
+
 *[Heather](https://www.heatherturner.net) is a Research Software
 Engineering Fellow in the Statistics Department at the University of
 Warwick, UK. She has previously worked as a statistician in the
@@ -93,6 +102,8 @@ in the R community. She is also a co-organizer of R-Ladies Remote.*
 ### R: 2 décadas
 
 #### José Cláudio Faria (UESC, Brasil)
+
+<img src="images/Faria2.png" style="float:left" width="160px" id="hp"/>
 
 *[José Cláudio
 Faria](http://nbcgib.uesc.br/lec/professores/jcfaria/pag-pessoal/pt)
@@ -118,6 +129,8 @@ Literate Programming, and introduce the history all the way from
 WEB/noweb, Sweave, knitr, and rmarkdown. I will share a few things that
 I learned from both the history and the community in the past decade.
 
+<img src="images/yihui.png" style="float:left" width="160px" id="hp"/>
+
 *[Yihui Xie](https://en.wikipedia.org/wiki/Yihui_Xie) is a software
 engineer at [RStudio](https://www.rstudio.com). He earned his PhD from
 the Department of Statistics, Iowa State University. He is interested in
@@ -131,15 +144,13 @@ and leaflet. He has published a number of books, including "Dynamic
 Documents with R and knitr", "bookdown: Authoring Books and Technical
 Documents with R Markdown", "blogdown: Creating Websites with R
 Markdown", "R Markdown: The Definitive Guide", and "R Markdown
-Cookbook."*
-
-*In 2006, he founded the [Capital of Statistics](https://cosx.org), which
-has grown into a large online community on statistics in China. He
-initiated the Chinese R conference in 2008, and has been involved in
-organizing R conferences in China since then. During his PhD training at
-Iowa State University, he won the Vince Sposito Statistical Computing
-Award (2011) and the Snedecor Award (2012) in the Department of
-Statistics.*
+Cookbook." In 2006, he founded the [Capital of
+Statistics](https://cosx.org), which has grown into a large online
+community on statistics in China. He initiated the Chinese R conference
+in 2008, and has been involved in organizing R conferences in China
+since then. During his PhD training at Iowa State University, he won the
+Vince Sposito Statistical Computing Award (2011) and the Snedecor Award
+(2012) in the Department of Statistics.*
 
 ## Tutoriais
 
