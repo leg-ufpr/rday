@@ -223,7 +223,7 @@ UFPR. Bacharel em Estatística (2008) com mestrado em Métodos Numéricos
 em Engenharia (2010), ambos pela UFPR. Ph.D. em Matemática e Ciência da
 Computação pela University of Southern Denmark (USD, 2016).*
 
-### T5: Machine Learning: como automatizar todo o processo utilizando o pacote tidymodels
+### T3: Machine Learning: como automatizar todo o processo utilizando o pacote tidymodels
 
 **Samuel Victor Medeiros de Macêdo**
 
