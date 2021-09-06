@@ -47,7 +47,7 @@ dd |>
                   full_width = FALSE, position = "center") |>
     column_spec(1:4, color = "3f3f3f") |>
     column_spec(1, background = "white", bold = TRUE) |>
-    row_spec(c(7, 12, 17), background = "lightgray") |>
+    row_spec(c(5, 10, 15), background = "lightgray") |>
     collapse_rows(1, valign = "top", col_names = FALSE)
 
 ## save_kable("crono.html")
