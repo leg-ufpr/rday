@@ -223,6 +223,10 @@ UFPR. Bacharel em Estatística (2008) com mestrado em Métodos Numéricos
 em Engenharia (2010), ambos pela UFPR. Ph.D. em Matemática e Ciência da
 Computação pela University of Southern Denmark (USD, 2016).*
 
+<center>
+<a class="button-small-text" href="https://www.sympla.com.br/implementando-modelos-estatisticos-de-maneira-eficiente-com-o-tmb__1335330" target="_blank"> <img src="https://www.sympla.com.br/images/btn-register-widget.png"></img> </a>
+</center>
+
 ### T3: Machine Learning: como automatizar todo o processo utilizando o pacote tidymodels
 
 **Samuel Victor Medeiros de Macêdo**
