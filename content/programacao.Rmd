@@ -16,14 +16,13 @@ basehref: "../"
 # Programação
 
 A seguir segue a programação planejada inicialmente para o R Day.
-Eventuais ajustes poderão ocorrer antes do evento.
 
 - [Cronograma](programacao#cronograma)
 - [Palestras](programacao#palestras)
 - [Tutoriais](programacao#tutoriais)
 - [Apresentações orais](programacao#apresentações-orais)
 
-## Cronograma
+# Cronograma
 
 Para detalhes de tutoriais e apresentações, veja abaixo.
 
@@ -155,6 +154,15 @@ Vince Sposito Statistical Computing Award (2011) and the Snedecor Award
 (2012) in the Department of Statistics.*
 
 ## Tutoriais
+
+- Para acessar os tutoriais, acesse sua conta no
+  [Sympla](https://www.sympla.com.br) (a mesma que você utilizou para se
+  inscrever no tutorial)
+- Procure acessar com pelo menos 10 minutos de antecedência
+- Os tutoriais serão ao vivo nos horários indicados, e não ficarão
+  gravados
+- Você precisa ter o [Zoom](https://zoom.us) instalado. No Sympla haverá
+  um link para entrar na reunião com o Zoom
 
 ### T1: Faça apresentações ninja em R: conhecendo o pacote xaringan
 

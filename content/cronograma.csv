@@ -1,18 +1,18 @@
-Descrição,Hora,Atividade,Local
-Abertura,09:00 – 09:30,NA,Youtube
-Tutoriais,09:30 – 11:00,T1: xaringan,Sympla/Zoom
-Tutoriais,11:00 – 12:30,T2: TMB,Sympla/Zoom
-Almoço,12:30 – 14:00,NA,NA
-Palestra 1,14:00 – 15:00,"Heather Turner (University of Warwick, UK e R Foundation)",Youtube
-Apresentações,15:00 – 15:15,A1 | A2,Youtube
-Apresentações,15:15 – 15:30,A3 | A4,Youtube
-Apresentações,15:30 – 15:45,A5 | A6,Youtube
-Apresentações,15:45 – 16:00,A7 | A8,Youtube
-Palestra 2,16:00 – 17:00,"José Claudio Faria (UESC, Brasil)",Youtube
-Apresentações,17:00 – 17:15,A9,Youtube
-Apresentações,17:15 – 17:30,A10,Youtube
-Apresentações,17:30 – 17:45,A11,Youtube
-Apresentações,17:45 – 18:00,A12,Youtube
-Palestra 3,18:00 – 19:00,"Yihui Xie (Rstudio, EUA)",Youtube
-Encerramento,19:00 – 19:30,NA,Youtube
-Tutoriais,19:30 – 21:00,T3: tidymodels,Sympla/Zoom
+Descrição,Hora,Atividade,Local,Link
+Abertura,09:00 – 09:30,Sessão de abertura e orientações com os organizadores do R Day,Youtube,https://youtu.be/EIR6UAKcsGI
+Tutoriais,09:30 – 11:00,T1: xaringan,Sympla/Zoom,Acesse sua conta no Sympla
+Tutoriais,11:00 – 12:30,T2: TMB,Sympla/Zoom,Acesse sua conta no Sympla
+Almoço,12:30 – 14:00,NA,NA,
+Palestra 1,14:00 – 15:00,"Heather Turner (University of Warwick, UK e R Foundation)",Youtube,https://youtu.be/24TbpiQ5GeE
+Apresentações,15:00 – 15:15,A1 | A2,Youtube,Ver tabela abaixo
+Apresentações,15:15 – 15:30,A3 | A4,Youtube,Ver tabela abaixo
+Apresentações,15:30 – 15:45,A5 | A6,Youtube,Ver tabela abaixo
+Apresentações,15:45 – 16:00,A7 | A8,Youtube,Ver tabela abaixo
+Palestra 2,16:00 – 17:00,"José Claudio Faria (UESC, Brasil)",Youtube,https://youtu.be/INssoXdkOSI
+Apresentações,17:00 – 17:15,A9,Youtube,Ver tabela abaixo
+Apresentações,17:15 – 17:30,A10,Youtube,Ver tabela abaixo
+Apresentações,17:30 – 17:45,A11,Youtube,Ver tabela abaixo
+Apresentações,17:45 – 18:00,A12,Youtube,Ver tabela abaixo
+Palestra 3,18:00 – 19:00,"Yihui Xie (Rstudio, EUA)",Youtube,https://youtu.be/T24nt-d4cEg
+Encerramento,19:00 – 19:30,Sessão de encerramento com os organizadores do R Day,Youtube,Continuação do anterior
+Tutoriais,19:30 – 21:00,T3: tidymodels,Sympla/Zoom,Acesse sua conta no Sympla
