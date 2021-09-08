@@ -1,16 +1,13 @@
-"Nome do apresentador","Universidade/Instituição/Empresa","Título da apresentação"
-"Carolina Musso","Secretaria de Saúde do Distrito Federal","Cadê o e-mail que tava aqui? Deleguei para o R"
-"Filipe Fulgencio Dias","Universidade Federal de Viçosa (UFV) - Campus Florestal","Estatística Descritiva Aplicada a Resultados do Campeonato Brasileiro de Futebol"
-"Sérgio Costa","Arauco Forest Brasil","Aplicação Shiny para Monitoramento de Dados Meteorológicos e de Risco de Incêndios Florestais"
-"Miguel Ângelo Lellis Moreira","Universidade Federal Fluminense - UFF","AHP-GAUSSIANO: Abordagem extensiva ao método AHP integrada à uma ferramenta computacional em Shiny"
-"Ivan Bezerra Allaman","Universidade Estadual de Santa Cruz","EDM - Pacote R para gerenciar e gerar provas individualizadas em .PDF e formato moodle"
-"Carolina Musso","Universidade de Brasília","Completitude, Consistência, Oportunidade, Representatividade … mas não se esqueça da Reprodutibilidade!"
-"Bruna Paes de Oliveira","Universidade de Brasília","Monitoramento de internações evitáveis: O R como ferramenta de apoio à gestão da saúde"
-"Italo Ramos Cegatta","Suzano S.A.","Boas práticas para organização de códigos e projetos no R"
-"Adilson Vilarinho Terra","Uff","Proposta de framework interativo para aprendizagem e solução da problemática de caminho mínimo pelo Algoritmo de Dijkstra e Programação Matemática"
-"Hellen Paz","Universidade Federal da Bahia","Processamento local de bancos de dados massivos com R: uma análise nacional do Programa Bolsa Família"
-"Otto Henrique Nienov","Centro de Informações Estratégicas em Vigilância em Saúde (CIEVS) Nacional / Coordenação Geral de Emergências em Saúde Pública (CGEMSP) / Departamento de Saúde Ambiental, do Trabalhador e Vigilância das Emergências em Saúde Pública (DSASTE) / Secretaria de Vigilância em Saúde (SVS) / Ministério da Saúde (MS)","Software R como ferramenta para otimização da avaliação de risco no cenário da covid-19"
-"Caroliny Victoria dos Santos Silva","Universidade de Brasília","Paciência jovem Padawan: transformando alunos da UnB em mestres Jedi do R"
-"Carolina Musso","Centro de Informações Estratégicas em Vigilância em Saúde (CIEVS) Nacional / Coordenação Geral de Emergências em Saúde Pública (CGEMSP) / Departamento de Saúde Ambiental, do Trabalhador e Vigilância das Emergências em Saúde Pública (DSASTE) / Secretaria de Vigilância em Saúde (SVS) / Ministério da Saúde (MS)","Flexível e replicável como o vírus: Importância da reprodutibilidade e flexibilidade do R na análise do avanço das variantes do coronavírus no Brasil e no Mundo."
-"Julio Cesar Verneque Lacerda","Centro de Informações Estratégicas em Vigilância em Saúde (CIEVS) Nacional / Coordenação Geral de Emergências em Saúde Pública (CGEMSP) / Departamento de Saúde Ambiental, do Trabalhador e Vigilância das Emergências em Saúde Pública (DSASTE) / Secretaria de Vigilância em Saúde (SVS) / Ministério da Saúde (MS)","Menos é mais: como o R reduz o tempo de análise e melhora a eficiência da comunicação durante a pandemia de coronavírus."
-"Mônica Rocabado Mazzolenis de Oliveira","FGV EAESP","Texto como Dados para Ciências Sociais - Guia Prático"
+ID,Hora,Nome do apresentador,Filiação,Título
+A1,15:00,Carolina Musso,Secretaria de Saúde do Distrito Federal,Cadê o e-mail que tava aqui? Deleguei para o R
+A2,15:00,Filipe Fulgencio Dias,Universidade Federal de Viçosa (UFV) - Campus Florestal,Estatística Descritiva Aplicada a Resultados do Campeonato Brasileiro de Futebol
+A3,15:15,Miguel Ângelo Lellis Moreira,Universidade Federal Fluminense - UFF,AHP-GAUSSIANO: Abordagem extensiva ao método AHP integrada à uma ferramenta computacional em Shiny
+A4,15:15,Bruna Paes de Oliveira,Universidade de Brasília,Monitoramento de internações evitáveis: O R como ferramenta de apoio à gestão da saúde
+A5,15:30,Carolina Musso,Universidade de Brasília,"Completitude, Consistência, Oportunidade, Representatividade … mas não se esqueça da Reprodutibilidade!"
+A6,15:30,Ivan Bezerra Allaman,Universidade Estadual de Santa Cruz,EDM - Pacote R para gerenciar e gerar provas individualizadas em .PDF e formato moodle
+A7,15:45,Hellen Paz,Universidade Federal da Bahia,Processamento local de bancos de dados massivos com R: uma análise nacional do Programa Bolsa Família
+A8,15:45,Italo Ramos Cegatta,Suzano S.A.,Boas práticas para organização de códigos e projetos no R
+A9,17:00,Otto Henrique Nienov,CIEVS/CGEMSP/DSASTE /SVS/Ministério da Saúde (MS),Software R como ferramenta para otimização da avaliação de risco no cenário da covid-19
+A10,17:15,Caroliny Victoria dos Santos Silva,Universidade de Brasília,Paciência jovem Padawan: transformando alunos da UnB em mestres Jedi do R
+A11,17:30,Carolina Musso,CIEVS/CGEMSP/DSASTE /SVS/Ministério da Saúde (MS),Flexível e replicável como o vírus: Importância da reprodutibilidade e flexibilidade do R na análise do avanço das variantes do coronavírus no Brasil e no Mundo.
+A12,17:45,Julio Cesar Verneque Lacerda,CIEVS/CGEMSP/DSASTE /SVS/Ministério da Saúde (MS),Menos é mais: como o R reduz o tempo de análise e melhora a eficiência da comunicação durante a pandemia de coronavírus.

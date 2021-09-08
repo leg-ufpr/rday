@@ -25,6 +25,8 @@ Eventuais ajustes poderão ocorrer antes do evento.
 
 ## Cronograma
 
+Para detalhes de tutoriais e apresentações, veja abaixo.
+
 ```{r, echo=FALSE, messages=FALSE, warnings=FALSE, results='hide'}
 library(knitr, quietly = TRUE, warn.conflicts = FALSE)
 ## https://github.com/haozhu233/kableExtra/issues/595
@@ -269,18 +271,17 @@ da <- read.table("lista.csv", header = TRUE,
                  sep = ",", check.names = FALSE)
 str(da)
 names(da)
-names(da)[2:3] <- c("Filiação", "Título")
 names(da)
 ```
 
-Apresentações aprovadas (pode sofrer alteração).
+Apresentações confirmadas (pode sofrer alteração).
 
 ```{r, echo=FALSE}
 da |>
-    kable(align = "lll") |>
+    kable(align = "cclll") |>
     kable_styling(bootstrap_options =
                       c("striped", "bordered"),
                   full_width = FALSE, position = "center") |>
-    column_spec(1:3, color = "3f3f3f") |>
-    column_spec(1, bold = TRUE)
+    column_spec(1:5, color = "3f3f3f") |>
+    column_spec(1:3, bold = TRUE)
 ```
