@@ -119,7 +119,7 @@ Queiroz (2008). Tem atuado principalmente nos seguintes temas: ensino de
 estatística, desenvolvimento de software para o ambiente R, planejamento
 de experimentos, análise de dados (uni e multivariados).*
 
-### A Brief History of R Markdown
+### A Brief History of R Markdown. [Slides da apresentação.](https://slides.yihui.org/2021-Brazilian-R-Day.html)
 
 #### Yihui Xie (RStudio, EUA)
 
