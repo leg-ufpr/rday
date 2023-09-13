@@ -7,17 +7,19 @@ Day](http://rday.leg.ufpr.br).
 
 ## Para gerar o site
 
-O site é todo construído usando apenas o [R Markdown][], por isso, o
-código fonte está nos arquivos `Rmd`. Para gerar o site você precisará
-das versões mais recentes dos pacotes `rmarkdown` e `knitr`.
-
 1. Copie (ou fork) esse repositório
 2. Abra o R nesse diretório, carregue os pacotes e renderize o site com
-   `render_site()`
+   `blogdown::build_site()`
 
 ```r
-library(rmarkdown)
-render_site()
+library(blogdown)
+build_site()
+```
+
+Para visualizar mudanças locais em tempo real, use
+
+```r
+serve_site()
 ```
 
 ## Licença
